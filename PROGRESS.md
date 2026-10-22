@@ -29,5 +29,7 @@ El usuario ha pospuesto Vercel y Railway: entregar todo en `main` local, sin pus
 
 ## Pendiente externo
 
+Nueva ampliación solicitada: se ha preparado `PLAN-2.md` con constructor de pedidos, comparador, estadísticas de pedidos confirmados y asistentes OpenAI público/privado. `PROMPT-GOAL-PLAN-2.md` contiene la orden de implementación. Esta ampliación está planificada, todavía no implementada; no se ha creado una nueva meta ni solicitado/usado una clave API al redactarla. El usuario ha confirmado que configurará el correo con el despliegue.
+
 - Correo real: pendiente de acceso a proveedor y remitente verificado.
 - Despliegues públicos, comprobación pública y QR: pospuestos por el usuario.

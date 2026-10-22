@@ -4,6 +4,8 @@ Aplicación MEVN con TypeScript estricto: Nuxt 4 / Vue, API Express 5 y MongoDB.
 
 **Alcance actualizado por el usuario:** entrega en `main` local, sin push ni despliegues. El usuario publicará en Railway y Vercel y comunicará después la URL estable para la hoja con QR. No se ha modificado la tienda actual.
 
+**Siguiente fase propuesta, todavía sin implementar:** [Plan 2 — Hacer un pedido, comparador y asistentes](PLAN-2.md). Incluye un [prompt completo con `/goal`](PROMPT-GOAL-PLAN-2.md) para ejecutar la ampliación cuando se decida.
+
 ## Arranque local
 
 Requiere Node **24.15+ de la rama 24** (también compatible con 22.22.3+), npm y MongoDB. Usa `npm ci` para respetar el lockfile.
