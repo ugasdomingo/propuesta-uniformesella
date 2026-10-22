@@ -1,0 +1,32 @@
+{
+  "name": "uniformes-ellas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22.22.3 <23 || >=24.15.0"
+  },
+  "scripts": {
+    "dev:web": "npm run dev -w @ellas/web",
+    "dev:api": "npm run dev -w @ellas/api",
+    "build": "npm run catalog:audit && npm run build -w @ellas/shared && npm run build -w @ellas/api && npm run build -w @ellas/web",
+    "typecheck": "npm run typecheck -w @ellas/shared && npm run typecheck -w @ellas/api && npm run typecheck -w @ellas/web",
+    "catalog:import": "tsx --env-file-if-exists=.env scripts/import-catalog.ts",
+    "catalog:audit": "tsx scripts/audit-catalog.ts",
+    "demo:seed": "tsx --env-file-if-exists=.env scripts/seed-demo.ts",
+    "demo:reset": "tsx --env-file-if-exists=.env scripts/reset-demo.ts",
+    "admin:create": "tsx --env-file-if-exists=.env scripts/create-admin.ts",
+    "db:local": "tsx scripts/local-mongo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "mongodb-memory-server-core": "^10.3.0",
+    "tesseract.js": "^7.0.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

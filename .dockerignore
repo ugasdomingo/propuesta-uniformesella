@@ -1,0 +1,12 @@
+.git
+**/node_modules
+**/.nuxt
+**/.output
+**/dist
+**/.env
+**/.env.*
+**/.local
+.tools
+tmp
+output
+!**/.env.example

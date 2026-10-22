@@ -1,0 +1,664 @@
+{
+  "TSUAPICO": {
+    "colors": [
+      "WH",
+      "BK",
+      "RD",
+      "NY",
+      "RB",
+      "FU",
+      "DNH",
+      "CHCH",
+      "BGH",
+      "MUH",
+      "TUH",
+      "LVH",
+      "BUH",
+      "GM",
+      "SL",
+      "PB",
+      "MO",
+      "BT"
+    ],
+    "allSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "compositionNotes": [
+      "GM: 85% algodón / 15% viscosa.",
+      "Heather: 65% poliéster / 35% algodón.",
+      "DNH: 60% algodón / 40% poliéster."
+    ],
+    "notes": [
+      "Página 178 revisada visualmente: 18 colores. SL, PB, MO y BT son novedades del PDF que faltan en la ficha online."
+    ]
+  },
+  "SWRBHOOD": {
+    "colors": [
+      "SK",
+      "GM",
+      "PV",
+      "NY",
+      "MO",
+      "BT"
+    ],
+    "allSizes": [
+      "0",
+      "1",
+      "2"
+    ],
+    "composition": "65% poliéster / 35% algodón.",
+    "compositionNotes": [
+      "GM: 61% algodón / 31% poliéster / 8% viscosa."
+    ],
+    "notes": [
+      "Página 147 revisada visualmente: 6 colores, incluido SK, novedad que falta online."
+    ]
+  },
+  "SWPANTSB": {
+    "colors": [
+      "SK",
+      "GM",
+      "PV",
+      "NY",
+      "MO",
+      "BT"
+    ],
+    "allSizes": [
+      "0",
+      "1",
+      "2"
+    ],
+    "composition": "65% poliéster / 35% algodón.",
+    "compositionNotes": [
+      "GM: 61% algodón / 31% poliéster / 8% viscosa."
+    ],
+    "notes": [
+      "Comparte carta de 6 colores y composición con SWRBHOOD en la página 147. SK también está disponible en el pantalón."
+    ]
+  },
+  "SPHEAVYMEN": {
+    "colors": [
+      "WHWH",
+      "SLGRA",
+      "CHCRD",
+      "BKSL",
+      "RDNY",
+      "RBSL",
+      "NYSL"
+    ],
+    "allSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "notes": [
+      "Página 205 revisada visualmente: 7 colores. Excluido WHNY, que aparece solo en la ficha online. Tallas S-XXL."
+    ]
+  },
+  "SPHEAVYLDY": {
+    "colors": [
+      "WHWH",
+      "SLGRA",
+      "CHCRD",
+      "BKSL",
+      "RDNY",
+      "RBSL",
+      "NYSL"
+    ],
+    "allSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "notes": [
+      "Página 204 revisada visualmente: 7 colores, sin WHNY. Tallas S-3XL."
+    ]
+  },
+  "JTSOFTJACK": {
+    "notes": [
+      "Se conserva la referencia JTSOFTJACK del PDF y del directorio; la web oficial la abrevia como JTSOFTJAC."
+    ]
+  },
+  "SWRAZIP": {
+    "printedPages": "121",
+    "photo": {
+      "sheet": "061-R",
+      "rect": [
+        56,
+        40,
+        454,
+        550
+      ]
+    },
+    "notes": [
+      "Errata del directorio: indica 122. La ficha Half Zip Sweatshirt SWRAZIP está en la página impresa 121, digital 61 derecha."
+    ]
+  },
+  "SWRAFUZIP": {
+    "photo": {
+      "sheet": "062-L",
+      "rect": [
+        122,
+        40,
+        519,
+        550
+      ]
+    }
+  },
+  "TSSEA": {
+    "anchors": {
+      "091-R": {
+        "x": 272,
+        "y": 435
+      }
+    },
+    "photo": {
+      "sheet": "091-R",
+      "rect": [
+        57,
+        411,
+        259,
+        741
+      ]
+    }
+  },
+  "TSUASLB": {
+    "photo": {
+      "sheet": "091-R",
+      "rect": [
+        57,
+        40,
+        259,
+        368
+      ]
+    }
+  },
+  "TSLSEA": {
+    "anchors": {
+      "091-L": {
+        "x": 337,
+        "y": 435
+      }
+    },
+    "photo": {
+      "sheet": "091-L",
+      "rect": [
+        122,
+        411,
+        324,
+        741
+      ]
+    }
+  },
+  "TSULSLB": {
+    "photo": {
+      "sheet": "091-L",
+      "rect": [
+        122,
+        40,
+        324,
+        368
+      ]
+    }
+  },
+  "WKOPORTO": {
+    "category": "Casacas",
+    "photo": {
+      "sheet": "041-L",
+      "rect": [
+        122,
+        40,
+        324,
+        382
+      ]
+    }
+  },
+  "WKLISBON": {
+    "photo": {
+      "sheet": "041-L",
+      "rect": [
+        122,
+        397,
+        324,
+        741
+      ]
+    }
+  },
+  "WKROME": {
+    "photo": {
+      "sheet": "042-L",
+      "rect": [
+        122,
+        40,
+        324,
+        368
+      ]
+    }
+  },
+  "WKROMEL": {
+    "anchors": {
+      "042-L": {
+        "x": 337,
+        "y": 435
+      }
+    },
+    "photo": {
+      "sheet": "042-L",
+      "rect": [
+        122,
+        412,
+        324,
+        741
+      ]
+    }
+  },
+  "WKDUBAI": {
+    "anchors": {
+      "052-L": {
+        "x": 127,
+        "y": 180
+      }
+    },
+    "photo": {
+      "sheet": "052-L",
+      "rect": [
+        127,
+        198,
+        320,
+        373
+      ]
+    },
+    "sizeAliases": {
+      "38": "XS",
+      "40": "S",
+      "42": "M",
+      "44": "L",
+      "46": "XL",
+      "48": "XXL",
+      "50": "3XL",
+      "52": "4XL",
+      "54": "5XL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "WKDUBAIL": {
+    "photo": {
+      "sheet": "052-L",
+      "rect": [
+        127,
+        487,
+        320,
+        661
+      ]
+    },
+    "sizeAliases": {
+      "36": "XS",
+      "38": "S",
+      "40": "M",
+      "42": "L",
+      "44": "XL",
+      "46": "XXL",
+      "48": "3XL",
+      "50": "4XL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "WKBOSTONK": {
+    "photo": {
+      "sheet": "035-R",
+      "rect": [
+        57,
+        40,
+        215,
+        261
+      ]
+    },
+    "audience": "Infantil"
+  },
+  "WKTOKYOK": {
+    "photo": {
+      "sheet": "035-R",
+      "rect": [
+        57,
+        280,
+        215,
+        500
+      ]
+    },
+    "audience": "Infantil"
+  },
+  "WKPARISK": {
+    "anchors": {
+      "035-R": {
+        "x": 226,
+        "y": 542
+      }
+    },
+    "photo": {
+      "sheet": "035-R",
+      "rect": [
+        57,
+        519,
+        215,
+        741
+      ]
+    },
+    "audience": "Infantil"
+  },
+  "FLRA300": {
+    "photo": {
+      "sheet": "079-L",
+      "rect": [
+        110,
+        40,
+        284,
+        261
+      ]
+    }
+  },
+  "FLRL300": {
+    "anchors": {
+      "079-L": {
+        "x": 296,
+        "y": 299
+      }
+    },
+    "photo": {
+      "sheet": "079-L",
+      "rect": [
+        110,
+        284,
+        284,
+        505
+      ]
+    }
+  },
+  "FLRK300": {
+    "photo": {
+      "sheet": "079-L",
+      "rect": [
+        110,
+        519,
+        284,
+        741
+      ]
+    }
+  },
+  "TSRA150WLT": {
+    "anchors": {
+      "036-R": {
+        "x": 226,
+        "y": 59
+      }
+    },
+    "photo": {
+      "sheet": "036-R",
+      "rect": [
+        57,
+        40,
+        215,
+        261
+      ]
+    },
+    "notes": [
+      "La carta indica WLT: blanco especial para tintar, identificado internamente como WH por el fabricante. No equivale al blanco convencional.",
+      "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+    ],
+    "weight": "155"
+  },
+  "TSRLCMFWLT": {
+    "anchors": {
+      "036-R": {
+        "x": 226,
+        "y": 299
+      }
+    },
+    "photo": {
+      "sheet": "036-R",
+      "rect": [
+        57,
+        280,
+        215,
+        500
+      ]
+    },
+    "notes": [
+      "Blanco WLT especial para tintar; no es el blanco convencional."
+    ]
+  },
+  "TSRK150WLT": {
+    "anchors": {
+      "036-R": {
+        "x": 226,
+        "y": 542
+      }
+    },
+    "photo": {
+      "sheet": "036-R",
+      "rect": [
+        57,
+        519,
+        215,
+        741
+      ]
+    },
+    "notes": [
+      "Blanco WLT especial para tintar; tallas infantiles."
+    ]
+  },
+  "JTPOLO": {
+    "weight": "180",
+    "notes": [
+      "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+    ]
+  },
+  "TSRA150": {
+    "weight": "155",
+    "notes": [
+      "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+    ],
+    "imageSheet": "011-R"
+  },
+  "TSRA190": {
+    "weight": "185-190",
+    "notes": [
+      "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+    ],
+    "imageSheet": "017-R"
+  },
+  "TSRKSTRAP": {
+    "weight": "155",
+    "notes": [
+      "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+    ]
+  },
+  "POPL200WK": {
+    "weight": "200",
+    "notes": [
+      "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+    ]
+  },
+  "WKDUBLIN": {
+    "sizeAliases": {
+      "38": "XS",
+      "40": "S",
+      "42": "M",
+      "44": "L",
+      "46": "XL",
+      "48": "XXL",
+      "50": "3XL",
+      "52": "4XL",
+      "54": "5XL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "WKTOKYOL": {
+    "sizeAliases": {
+      "36": "XS",
+      "38": "S",
+      "40": "M",
+      "42": "L",
+      "44": "XL",
+      "46": "XXL",
+      "48": "3XL",
+      "50": "4XL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "WKCHESTER": {
+    "sizeAliases": {
+      "38": "XS",
+      "40": "S",
+      "42": "M",
+      "44": "L",
+      "46": "XL",
+      "48": "XXL",
+      "50": "3XL",
+      "52": "4XL",
+      "54": "5XL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "WKDUBLINL": {
+    "sizeAliases": {
+      "36": "XS",
+      "38": "S",
+      "40": "M",
+      "42": "L",
+      "44": "XL",
+      "46": "XXL",
+      "48": "3XL",
+      "50": "4XL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "WKLARISA": {
+    "sizeAliases": {
+      "34": "XXS",
+      "36": "XS",
+      "38": "S",
+      "40": "M",
+      "42": "L",
+      "44": "XL",
+      "46": "XXL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "WKARIZONA": {
+    "sizeAliases": {
+      "38": "XS",
+      "40": "S",
+      "42": "M",
+      "44": "L",
+      "46": "XL",
+      "48": "XXL",
+      "50": "3XL",
+      "52": "4XL",
+      "54": "5XL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "WKTOKYO": {
+    "sizeAliases": {
+      "38": "XS",
+      "40": "S",
+      "42": "M",
+      "44": "L",
+      "46": "XL",
+      "48": "XXL",
+      "50": "3XL",
+      "52": "4XL",
+      "54": "5XL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "WKARIZONAL": {
+    "sizeAliases": {
+      "36": "XS",
+      "38": "S",
+      "40": "M",
+      "42": "L",
+      "44": "XL",
+      "46": "XXL",
+      "48": "3XL",
+      "50": "4XL"
+    },
+    "notes": [
+      "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+    ]
+  },
+  "JT150": {
+    "imageSheet": "006-R"
+  },
+  "TSUA150": {
+    "imageSheet": "092-R"
+  },
+  "TSUABOXY": {
+    "imageSheet": "087-R"
+  },
+  "TSUAOVER240": {
+    "imageSheet": "088-R"
+  },
+  "TSRLPRM": {
+    "imageSheet": "015-R"
+  },
+  "TSRLCMF": {
+    "imageSheet": "012-R"
+  },
+  "TS150ST": {
+    "imageSheet": "013-L"
+  },
+  "SWKNG320": {
+    "imageSheet": "066-R"
+  },
+  "SWKNGOVER": {
+    "imageSheet": "067-R"
+  },
+  "TSRK150LS": {
+    "imageSheet": "030-R"
+  },
+  "TSRK190": {
+    "imageSheet": "029-R"
+  },
+  "PORA240": {
+    "imageSheet": "022-R"
+  },
+  "POPL200LS": {
+    "photo": {
+      "sheet": "024-L",
+      "rect": [
+        264,
+        0,
+        575,
+        383
+      ]
+    }
+  }
+}

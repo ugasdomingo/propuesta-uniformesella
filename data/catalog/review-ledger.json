@@ -1,0 +1,1583 @@
+{
+  "reviewDate": "2026-10-22",
+  "pdfSha256": "dd06ec9abcab35808933a2719e4adbcf00c63febbdcde0567b88add4bf3d1ed8",
+  "directoryEntries": 201,
+  "references": {
+    "JT150": {
+      "fingerprint": "205ca3caa37d24457d85c74c0cec77a6c0b8134e7047bc654ae94865c914a355",
+      "printedPages": "10-11",
+      "colorCount": 25,
+      "sizeCount": 9,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRA150LS": {
+      "fingerprint": "70b4bcdff0f8e8a53ac91f211eedace5281e9bb6ca60114804e75b2d3ce00135",
+      "printedPages": "35",
+      "colorCount": 13,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRA190": {
+      "fingerprint": "0037c2843940d3faf66172c61806dd2bf83d4b34e9856c6b3f7cc286b4728e3f",
+      "printedPages": "32-33",
+      "colorCount": 60,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUAPICO": {
+      "fingerprint": "fd4759146ac189fa507c75a21818f6da4ef5c232211608d1d658d2c06ef91852",
+      "printedPages": "178",
+      "colorCount": 18,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTARBM": {
+      "fingerprint": "0c142342ac205077c0793897915490e6d7be0689c57282aa197b14d9f1d2bdb8",
+      "printedPages": "201",
+      "colorCount": 6,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRLCMFLS": {
+      "fingerprint": "9d81e249854a06ec6dea6a363325cabc8f83727f92621c94552a07fb47014bda",
+      "printedPages": "34",
+      "colorCount": 7,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "JTSPORT": {
+      "fingerprint": "d48deffe74128377ceb5b93d405cd234e7a573a3ea3af8d0dc7a8197908bc6a4",
+      "printedPages": "13",
+      "colorCount": 10,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSR160ORG": {
+      "fingerprint": "4117376f95727a91b8dd569730408d758c58b0fa4a53a1110007e25a6c50bf3a",
+      "printedPages": "26",
+      "colorCount": 5,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSSEA": {
+      "fingerprint": "8d22da5a882152a62f0394f7815827e514923e9500907b8d97db629e6a55cd22",
+      "printedPages": "181",
+      "colorCount": 4,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUA150": {
+      "fingerprint": "3154495b8246611dfcca7f54d7bf7fdd0924af60f7ae3c27bde20e0d170f946c",
+      "printedPages": "182-183",
+      "colorCount": 12,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTMANLS": {
+      "fingerprint": "fae4cd7889b590984be80964b651aeca10917f7b03ceac4c2921ac07e0c5eb20",
+      "printedPages": "207",
+      "colorCount": 7,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SBTSLCMF": {
+      "fingerprint": "64d4f787f149cf0ff3765e915b405dabe8a359380a0bca14b9035152c273300b",
+      "printedPages": "74-75",
+      "colorCount": 1,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRA150": {
+      "fingerprint": "5ca54b9f25ed93168a6e7f8fd9da7cba9b1068d04dcee41f1fb4a0ee9ea6bc3b",
+      "printedPages": "20-21",
+      "colorCount": 90,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSR160DGP": {
+      "fingerprint": "57d12ae1bda5593c89cfaf1c6cd5c4d3281995bba579852538b0f10a77a5b482",
+      "printedPages": "26",
+      "colorCount": 1,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUASLB": {
+      "fingerprint": "2b5eae627f01e89deb3f3712d455a8993b895a476fa26991396c64a209f11726",
+      "printedPages": "181",
+      "colorCount": 2,
+      "sizeCount": 2,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUAOVER": {
+      "fingerprint": "9ee83c2e21fbb2fb92d1d207b890f3e60525d3a7757534b78445d44f7be32f66",
+      "printedPages": "176-177",
+      "colorCount": 12,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTCTRM": {
+      "fingerprint": "fd5a4a52671c3e7bb1524eaaa42787e292f4cb855cecc515e982588e9579cc51",
+      "printedPages": "206",
+      "colorCount": 4,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRLPRM": {
+      "fingerprint": "145b6b300c19357c4af7a897c128c68cbc856f8f04830fbd0b6cf94d7d1a6104",
+      "printedPages": "28-29",
+      "colorCount": 12,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRA150WLT": {
+      "fingerprint": "d1bbea4d3aad8792132240984a7acefba9b44b83533ee8a92d2dfc3ca2ae0204",
+      "printedPages": "70-71",
+      "colorCount": 1,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSR160COMB": {
+      "fingerprint": "47728594d87909dac15eb007fd2e1ea833619e5d3cbcb49fb09bffddebc0a9be",
+      "printedPages": "27",
+      "colorCount": 12,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUATNK": {
+      "fingerprint": "a43fb27ee8168b50e8ff25989e37661228e823bab477b01b622cbfd5a0bbf585",
+      "printedPages": "184",
+      "colorCount": 8,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUABOXY": {
+      "fingerprint": "ac2da2af0342770b9215b9d2415a0a2b8dc863ea4bbfd4db7d00f9465da75b0f",
+      "printedPages": "172-173",
+      "colorCount": 2,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTRGLM": {
+      "fingerprint": "c6acd78cc8701c90107e8266c2c5c57861d701e4f9d4076a322c630031a33eb5",
+      "printedPages": "206",
+      "colorCount": 8,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRLPRMLS": {
+      "fingerprint": "1d45fab9b75519979ca32cb907efad5ae5d9f77cbae55dcbedf19d921bb349d0",
+      "printedPages": "36",
+      "colorCount": 6,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SBTSMAN": {
+      "fingerprint": "d52aa62520695aec966b96402c7e636d4ad9f358b22cb72670d2f451d4895816",
+      "printedPages": "74-75",
+      "colorCount": 1,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRA170": {
+      "fingerprint": "77e991286c072304adf8507fb5e5e3fc753522a07e07c03e6fd2151dc3a4ec19",
+      "printedPages": "30-31",
+      "colorCount": 12,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUASTRPM": {
+      "fingerprint": "2b88349de5dba1a05ee9bee929f20579ef3e42771b61511b65742f48599b198c",
+      "printedPages": "185",
+      "colorCount": 11,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUAOVER240": {
+      "fingerprint": "9d65c8717dc2ba5e4ed3ac5668a2c46a7ad047139189c6064c631af7e0d4fced",
+      "printedPages": "174-175",
+      "colorCount": 7,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRLCMF": {
+      "fingerprint": "7df8388566d18eaf5144ab254144579d184187918320756aaec6926a7fa34e0f",
+      "printedPages": "22-23",
+      "colorCount": 40,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "CURVSSLUB": {
+      "fingerprint": "275d15d6dedf6cdae4e885a1bb77986dd8bdc5618e9931237dcd01611aa715ca",
+      "printedPages": "72",
+      "colorCount": 2,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TS150ST": {
+      "fingerprint": "832b66999fa40c15e47052ab2e7920f2a0722e9594c45241fc37320d9fd861f7",
+      "printedPages": "24-25",
+      "colorCount": 25,
+      "sizeCount": 8,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRA170LS": {
+      "fingerprint": "47b3bce4febca4aab0a73a28de0676e93d095382cf32166f9bfc2808192c69ee",
+      "printedPages": "37",
+      "colorCount": 10,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUALBCH": {
+      "fingerprint": "89d56b999290fc74cff26b809e401abc99c0ddf034559349a5ea0d412485439e",
+      "printedPages": "186",
+      "colorCount": 7,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTMAN": {
+      "fingerprint": "4d0a6fce3a9d90eb1401d25c02d97bdbcf09f02e4c1289bb5153bd90ee139f80",
+      "printedPages": "196-197",
+      "colorCount": 17,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRLCMFWLT": {
+      "fingerprint": "86157e90d9c4dd090ab4f9ec287553ea25928c25301b6cbc22c9581e6ab359fb",
+      "printedPages": "70-71",
+      "colorCount": 1,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "CURVS150": {
+      "fingerprint": "46a3f8f0571e54b2421be8fdd1701d4d40e6df24a73a18176c4826bba9969f8b",
+      "printedPages": "73",
+      "colorCount": 9,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "CURVSPICO": {
+      "fingerprint": "87730deca58ce4240b38c3fdbf728c484d649895a85c33c3050d022d2a767e99",
+      "printedPages": "73",
+      "colorCount": 9,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULTBG": {
+      "fingerprint": "2570cedbc6c5a3a372f5ba4e6bb429072806bea3161697f221bb681a7ee82720",
+      "printedPages": "193",
+      "colorCount": 4,
+      "sizeCount": 3,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULMALIA": {
+      "fingerprint": "942257f4532c5077b68caddca170ef50e09263e4de3277603c56d8d8ada0a606",
+      "printedPages": "189",
+      "colorCount": 4,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRBSUIT": {
+      "fingerprint": "7cad6e76d908e259a43488c2a3c69fca9facaed3708576837046fdb2147b00f8",
+      "printedPages": "50",
+      "colorCount": 5,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRK150WLT": {
+      "fingerprint": "d2550725a8d38ca0cbc236b7b7f4488ec0fe177312048dd0b98fa54a0574cfab",
+      "printedPages": "70-71",
+      "colorCount": 1,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTKID": {
+      "fingerprint": "dac98220de103596acb87d0f687b2fc1894e9c786029fe7365a115e1676cc530",
+      "printedPages": "198",
+      "colorCount": 9,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSLSEA": {
+      "fingerprint": "cd68132b13827d57d006fcaf6ecebc9dee7c6a71e97231a7378b28ae9e24abb1",
+      "printedPages": "180",
+      "colorCount": 3,
+      "sizeCount": 2,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULSCL": {
+      "fingerprint": "2803c11e708f1201e04a28a0d5874db1ff3984246761edcd4489dca413c82ff3",
+      "printedPages": "191",
+      "colorCount": 18,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTLADY": {
+      "fingerprint": "8c4469835ec7bafdf0df591f62c29044f6bfe61daa9236f61eafe1e34010bbcf",
+      "printedPages": "199",
+      "colorCount": 14,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRBBODYLS": {
+      "fingerprint": "5a6cb0ad66ee6732784ed069878a2a32bc61b13094ea045c81ea66df4330b2a5",
+      "printedPages": "50",
+      "colorCount": 5,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUKSEA": {
+      "fingerprint": "b3c92b763ca252ca3071f88ba88f303f88bb0f20493f36ec21ea10e9e4f2b4c7",
+      "printedPages": "62",
+      "colorCount": 1,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULSLB": {
+      "fingerprint": "fe0954643c929173e222714fa8ef795d324513d4babcd6a87b4d0b0c2928e3c8",
+      "printedPages": "180",
+      "colorCount": 7,
+      "sizeCount": 2,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRLCMFP": {
+      "fingerprint": "72429db011081c3bbb28502506c8fd9f6c06495b3bed33d5d82921db3c6a3bee",
+      "printedPages": "179",
+      "colorCount": 22,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTARBL": {
+      "fingerprint": "60a0f95fb190e2cc48c6fb83140e812d630ca7216888763c0344a4d0e32fe2e2",
+      "printedPages": "200",
+      "colorCount": 6,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SBTSKID": {
+      "fingerprint": "cc03d4d87f3c2dee6315071c20063f976804dbaab33b60925fe4a2c15cfeb55e",
+      "printedPages": "74-75",
+      "colorCount": 1,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSUKBSB": {
+      "fingerprint": "5d2ae63dd66bd245b896bddbf83de41bdaec7e3f759c5997322fde6b35a90b25",
+      "printedPages": "62",
+      "colorCount": 5,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULIBIZA": {
+      "fingerprint": "684579b15b13916c14b8f21b9d2ebc25989b5ef47b1a2d14929aa3ea7598cc72",
+      "printedPages": "188",
+      "colorCount": 5,
+      "sizeCount": 2,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULSAONA": {
+      "fingerprint": "fc49bdb98beae5cf2e3f8d4bf23200fe0c2928e5cc86f76995a477e9450e12aa",
+      "printedPages": "193",
+      "colorCount": 2,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRBODY150": {
+      "fingerprint": "abe32c57c214baf05be833248ffdc88b7810280155b3c11feebd42dd5db9e286",
+      "printedPages": "51",
+      "colorCount": 11,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRK150": {
+      "fingerprint": "3eddbbdec8d55a60c5847b6aef9017cf0de654b47e67c413ee82557600faa33d",
+      "printedPages": "54-55",
+      "colorCount": 50,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRK150LS": {
+      "fingerprint": "199dd9f707e44532a311e1d1820196304f845f47fab76b1408ae3c11a73ea04c",
+      "printedPages": "58-59",
+      "colorCount": 12,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULMLDV": {
+      "fingerprint": "1731ef2fc7ff2a9e3b15539c609cf0df23a2d220241eb158241ac683fd23d204",
+      "printedPages": "192",
+      "colorCount": 11,
+      "sizeCount": 2,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULVCTR": {
+      "fingerprint": "2ecd4f666fef10e4162267e96387ceb0808b54ab5c77e365f4150fe7f08ed035",
+      "printedPages": "190",
+      "colorCount": 10,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRB150": {
+      "fingerprint": "66ddf5f38276d393813e9b4fa3a3d6e4c15c6f415c0a6f8793a761228b396111",
+      "printedPages": "52-53",
+      "colorCount": 21,
+      "sizeCount": 3,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSLKTVL": {
+      "fingerprint": "d8695e16cf873d17f69d15aa9b471bca2b769da22a0f2bfe69bfce1bce4d164a",
+      "printedPages": "63",
+      "colorCount": 13,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRKSTRAP": {
+      "fingerprint": "66599073f97ebc1327cb60c89310b0b02e135a2e16afe6f07c4611744a0b827c",
+      "printedPages": "60",
+      "colorCount": 6,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULPAPLS": {
+      "fingerprint": "78eecf92277b62bab624625975fe93ea421dcedf694b1824a4fcd10a03a51158",
+      "printedPages": "192",
+      "colorCount": 6,
+      "sizeCount": 2,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSULARB": {
+      "fingerprint": "1077a1f39ff5cf05b5f5b6c539c42d562926523abcb05742927bcb47abdd38d0",
+      "printedPages": "187",
+      "colorCount": 13,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRBBODY": {
+      "fingerprint": "ab79655bfb75689e4e8bf799f2124186201126749e9d52b3d4620fffd67f3f23",
+      "printedPages": "48-49",
+      "colorCount": 15,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSLKTNG": {
+      "fingerprint": "ea3fc906e0715db6ec4fa8965d0163c82f1020aa350e58769985e4b5d9ef9093",
+      "printedPages": "61",
+      "colorCount": 13,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "TSRK190": {
+      "fingerprint": "c101dad1b011f6b0bba724ca923d7388154f4a9e565e4c5ad0f283b4a12b964e",
+      "printedPages": "56-57",
+      "colorCount": 25,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "JTSWCR": {
+      "fingerprint": "5398af5d85760a359337881922704ed12cc7b96b6fc0f959d5a7f87450a8b059",
+      "printedPages": "14",
+      "colorCount": 21,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWCRPEACH": {
+      "fingerprint": "68cd58bc97fb1a2b5a7e3f1dc7faa1ceadd5fedd4478ce383bdd631b39d98258",
+      "printedPages": "145",
+      "colorCount": 5,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRAFUZIP": {
+      "fingerprint": "71d191e533577df80e8a6be781b7da7c15864a71db227121e0e165095c216af8",
+      "printedPages": "122",
+      "colorCount": 11,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWHOODECO": {
+      "fingerprint": "7053e133afa72d70c5da9ae2fec815ab35c6d2f37c413c2fd116f0298419aa67",
+      "printedPages": "154",
+      "colorCount": 8,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "JTSWKNG": {
+      "fingerprint": "474a327ce021190001d83f968ebee9b8f2d6c9465086b771a33e6c05723ba27a",
+      "printedPages": "15",
+      "colorCount": 21,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWKNGPEACH": {
+      "fingerprint": "a4612218402c1521c18fb184478de94b0376a2ba68dc3cd5523fb3542a3dcebd",
+      "printedPages": "145",
+      "colorCount": 5,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWUAHOOD": {
+      "fingerprint": "97fe5f86999d0c3c19351793623ac7b14d9c697f0d5209550aa0604ef11eab14",
+      "printedPages": "123",
+      "colorCount": 20,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWCRL240": {
+      "fingerprint": "ffe41ee277ef3178c8dba92a0a05f90d19be27fda3bcc02a61e41044c370a902",
+      "printedPages": "136",
+      "colorCount": 5,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWCR240": {
+      "fingerprint": "6e17a591d4d7b1d7a123720b4b02dbcbd63ea07ecc0c537dac35f229712cc7f1",
+      "printedPages": "137",
+      "colorCount": 9,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRA290": {
+      "fingerprint": "eecc102183147efc325bd6af5e6c12f3287aa2e2e8f6915805cb54ba185d71b6",
+      "printedPages": "114-115",
+      "colorCount": 80,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWKNG320": {
+      "fingerprint": "604fc3ad3bb24ed817c24bd6ef1cff96a26121fe42705ee6554621b2d99e6c8e",
+      "printedPages": "130-131",
+      "colorCount": 15,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWULKNG240": {
+      "fingerprint": "affb09d78feee05a6e14b3f2e6bb6f4f637f4a091931d93bada11fa1e8713fbb",
+      "printedPages": "138",
+      "colorCount": 5,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWKNG240": {
+      "fingerprint": "863db0c30e0f6e5b5c534cf4ad661970d2f8985b25ef8d4b9d9d2acd7e6488ec",
+      "printedPages": "139",
+      "colorCount": 9,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRARGL": {
+      "fingerprint": "7b05b2cff06e5ffca39dd494d70810eb24d46c34a1a3ffb113a7e014c4c74bfb",
+      "printedPages": "120",
+      "colorCount": 10,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWKNGOVER": {
+      "fingerprint": "11588e546d2ba624e5910a0a64cd4241f008ac5ea7b64402945f696da4ffe358",
+      "printedPages": "132-133",
+      "colorCount": 12,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWULHOOD240": {
+      "fingerprint": "fdf56db4a7d58344c1a08f561c3c341b9bb62ec8f3f371b2ad6e635abfb18823",
+      "printedPages": "140",
+      "colorCount": 5,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWUAHOOD240": {
+      "fingerprint": "d19a5ea329119e30396c3097de7b8605c9c3734a64c27762088b74e604f6b972",
+      "printedPages": "141",
+      "colorCount": 9,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRAKNG": {
+      "fingerprint": "682a294482ca6f2c9908889f1a30e54a168048ed49b5c46077a846fe3e9d9cab",
+      "printedPages": "116-117",
+      "colorCount": 80,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRAECO": {
+      "fingerprint": "fa883ccbc530ecca9b9830b6034250c5a62dddf2f693592ae63982d8b92169d7",
+      "printedPages": "150-151",
+      "colorCount": 8,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWULKNG": {
+      "fingerprint": "d22d5060a672cd185445564e519b40973078335e373090fc3ba69b42c766f4e9",
+      "printedPages": "118",
+      "colorCount": 19,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWFUZIP240": {
+      "fingerprint": "ea97687a0997089137a5f53da953f27b401df051381bf309ec4ae052df49d73c",
+      "printedPages": "142",
+      "colorCount": 6,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRAZIP": {
+      "fingerprint": "585a6f0be0c5e7f5eb69b137731022a81018e11576c6df3db73e0e588dd7fc37",
+      "printedPages": "121",
+      "colorCount": 11,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWKNGECO": {
+      "fingerprint": "1f417e55eb8f3f7018819cb6eec073c0b59d993377ac358f5934c7ca13580f85",
+      "printedPages": "152-153",
+      "colorCount": 8,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWULCROP": {
+      "fingerprint": "07e49bcd50b89928eec623a42a1dfc2825a1f2b1dfef0ee77ce77d9ed91dbcac",
+      "printedPages": "129",
+      "colorCount": 4,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRBSUIT": {
+      "fingerprint": "0593e44105bd23ff97c83b5bde736bd02745d5e435ac47a37dc430209dad6a5a",
+      "printedPages": "146",
+      "colorCount": 5,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRKECO": {
+      "fingerprint": "3d9ccbc2f786467fb941815019a41b7beba978373231e5a4f6ac123684b70589",
+      "printedPages": "150-151",
+      "colorCount": 8,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRBHOOD": {
+      "fingerprint": "5f09fb9cc3a319733345b2d74ed323f265bf5179dff719bb99ad1d17963cfdca",
+      "printedPages": "147",
+      "colorCount": 6,
+      "sizeCount": 3,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWKNGKECO": {
+      "fingerprint": "807c061b24dd6abf6c2f109eb8630751e63c2fa938a9b6de843e832c7701e050",
+      "printedPages": "152-153",
+      "colorCount": 8,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRK240": {
+      "fingerprint": "e764e62f30d8f219ebd14d080729aca115de891f39f3e98e2f7a4ad28e368719",
+      "printedPages": "136",
+      "colorCount": 4,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRK290": {
+      "fingerprint": "13b2814f0f72d7c21bbadc720dcdb8a97be3bccd5dab2caa497972f3ae0b53bc",
+      "printedPages": "118",
+      "colorCount": 21,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRKKNG240": {
+      "fingerprint": "e79d382d554ce7cc8cc155feaf1be58f77b69044af1c8d8ab6d1b38dfee0b2dc",
+      "printedPages": "138",
+      "colorCount": 4,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRKKNG": {
+      "fingerprint": "7405ceb9928e956502dafd39f00293f98247106af6a6d1336111cb6896661fcf",
+      "printedPages": "119",
+      "colorCount": 23,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRKHOOD240": {
+      "fingerprint": "d102cc428bc05b0462089f7086f41922060f541d388a9f4585665a0cd816c884",
+      "printedPages": "140",
+      "colorCount": 3,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRKHOOD": {
+      "fingerprint": "764a4a35856c5fc9a0cc186634e798880d1da79a4237b8dd3a0609f049947f65",
+      "printedPages": "124-125",
+      "colorCount": 12,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRKFUZIP240": {
+      "fingerprint": "3f1aa378a49ea1f40a2bca11a6c1732190f1a7a80ca8619e1d5f9bfaa8bf8ea3",
+      "printedPages": "142",
+      "colorCount": 3,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWRKFUZIP": {
+      "fingerprint": "3c51d0e50b88df6615272ae479ce7084c5cded1697e112701cc8cf7d0e60f255",
+      "printedPages": "124-125",
+      "colorCount": 8,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "JTPOLO": {
+      "fingerprint": "185959ffea0bdd772d621cb154564b673001f9cbce3e310c6b4399cf535c81bb",
+      "printedPages": "12",
+      "colorCount": 10,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "PORA210WK": {
+      "fingerprint": "4500bd8152ef1369be3f8ea36e0234e8fb62bc4194c14f90a9ff6ce4356d38fc",
+      "printedPages": "84-85",
+      "colorCount": 10,
+      "sizeCount": 8,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "CURVSPOLO": {
+      "fingerprint": "aa5986836f93c1b1767f72fd41f009440eca6ecaa340a9c0de9af31b18bb4e1e",
+      "printedPages": "72",
+      "colorCount": 7,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "PKID210SCH": {
+      "fingerprint": "efb84744760312be2edf96f954b46300168d3f33779d1fbd814ef20b344cee30",
+      "printedPages": "66-67",
+      "colorCount": 6,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "PORA210": {
+      "fingerprint": "ad9dd1dad95f3644a8ae78527258b9c4dc4e87a849f363273c82cbdbc66dedb9",
+      "printedPages": "38-39, 40, 41",
+      "colorCount": 63,
+      "sizeCount": 9,
+      "pdfFacts": 9,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTPIQUE": {
+      "fingerprint": "97c663eb93d30768f472e2f57f9a5a775de0333b5ab4c3dee09e702fe704be43",
+      "printedPages": "202-203",
+      "colorCount": 8,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "POPL200WK": {
+      "fingerprint": "03c3202bb58edc17a391a65d0ace777cced0e89f434f08fabfdac898045fca96",
+      "printedPages": "84-85",
+      "colorCount": 10,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "PKID210LS": {
+      "fingerprint": "5e0c627b6e7a9324bad359654ae9c0a9f5145d15c24e651bf2b8a2f25922a2e9",
+      "printedPages": "66",
+      "colorCount": 9,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPHEAVYMEN": {
+      "fingerprint": "0e125d1f66ce2c355c29855d21cc0d9c62bb4b713c5ce14d808b9c5824e383c7",
+      "printedPages": "205",
+      "colorCount": 7,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTPQLADY": {
+      "fingerprint": "77b16a4fc627265296f4e5b4a3c773202e253108b6d9b92c1a020b3a44007012",
+      "printedPages": "202-203",
+      "colorCount": 7,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPORTPQKID": {
+      "fingerprint": "a0973025e8209e95af2c92d20136fba4a232d025ce1f5d5191c730792eb75089",
+      "printedPages": "202-203",
+      "colorCount": 4,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "POPL200": {
+      "fingerprint": "03d1b6137ad34a7f5178e5a28b490c0e9635bfd603c29137ec61b1005e4d96a1",
+      "printedPages": "44-45, 44",
+      "colorCount": 38,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPHEAVYLDY": {
+      "fingerprint": "c2730c0689919306b4d17fbb24bc0da22f7b7e68df066c605be95ed4ca9cf910",
+      "printedPages": "204",
+      "colorCount": 7,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "PORA210LS": {
+      "fingerprint": "28af58fcf72ea51decf34f2aaa4758ac6ccf649ff93c8e69ad3208e3d961f086",
+      "printedPages": "47",
+      "colorCount": 17,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "PKID210": {
+      "fingerprint": "aaf47a06ca864ff201b724205e455573264da477c35f4c275e78d1f4997a07ef",
+      "printedPages": "64-65, 64",
+      "colorCount": 29,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "PORA240": {
+      "fingerprint": "0a2398409738d678e26248aeacc7060cfd43f9447a4074124134aa7583c31c6b",
+      "printedPages": "42-43",
+      "colorCount": 15,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "POPL200LS": {
+      "fingerprint": "9b194b265634533c7fb131d133ea6cf17a856de0475d3892325925ed01b9464b",
+      "printedPages": "46",
+      "colorCount": 10,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKOPORTO": {
+      "fingerprint": "e6bdf500f4558a8ef93ac60bcbe367164ec43c027666b2b081b6fd92e3060639",
+      "printedPages": "80-81",
+      "colorCount": 3,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAOXFSS": {
+      "fingerprint": "99d9299c5ebfe42120ea40759c74f6bc8a91cbafcf9c9fffaa351ab1945d912c",
+      "printedPages": "90-91",
+      "colorCount": 4,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAMONACO": {
+      "fingerprint": "e2f1cbb5017b9b55025459dcd434d464e04a723def26d9ef98c07b3f620708f0",
+      "printedPages": "95",
+      "colorCount": 1,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHLPEKIN": {
+      "fingerprint": "82658d86e379ed7f571b13b2df9f37c0c27fddfe0a1a03afee41027f3137d89d",
+      "printedPages": "88",
+      "colorCount": 2,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHLTEXAS": {
+      "fingerprint": "1068730f3f812eb1fa0df235e971bc872d9a140fe85646c5ad9e27865a9e43cc",
+      "printedPages": "96",
+      "colorCount": 1,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAOSLO": {
+      "fingerprint": "1391c59c1ee8207a1d4471edf4d72ae4f5811bc1cb16c602523aa5ea758aefbc",
+      "printedPages": "86-87",
+      "colorCount": 2,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAPOP": {
+      "fingerprint": "80798a2f13752f447be438f031ba1ef2b1b09c8493f12e3bd7bf56ff58954aa7",
+      "printedPages": "92-93",
+      "colorCount": 7,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHATEXAS": {
+      "fingerprint": "243eb5e762fa920e549457ba812380454b5e46f65f370389d2f0f791fc2f6a29",
+      "printedPages": "96-97",
+      "colorCount": 1,
+      "sizeCount": 8,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHLPEKINSS": {
+      "fingerprint": "5cdb521111f186226058c4654d21ce9308aa09ff96f6df8be27080607ced5125",
+      "printedPages": "88-89",
+      "colorCount": 2,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAOSLOSS": {
+      "fingerprint": "7d23a2240a591c1a11a177f26e7db422f7cb1ad15262ad0d8c9f00458e639aca",
+      "printedPages": "86-87",
+      "colorCount": 2,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAPOPSS": {
+      "fingerprint": "50936c2b6f3c5fc3059e42523c060a5b92fc771d0e3af732db0ded5d35457617",
+      "printedPages": "92",
+      "colorCount": 6,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHATULUM": {
+      "fingerprint": "a653751202b8853fbcb66532b7d5cf3a167decfdd0ae2e67bb6002dd923c90b9",
+      "printedPages": "98",
+      "colorCount": 5,
+      "sizeCount": 6,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHLOXF": {
+      "fingerprint": "12e0046e04b84b3ea938f38cbcfd8c669a8224192d3c57a80828cab6f3312906",
+      "printedPages": "90-91",
+      "colorCount": 8,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAPEKIN": {
+      "fingerprint": "88746f699463c33cd7fc67998fe496a23fd9c0971b507a6f8970f38055d8b686",
+      "printedPages": "88-89",
+      "colorCount": 2,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAMILAN": {
+      "fingerprint": "c6b5d8fb7bc23f97b92b14b2326833f12ac40b32b43d146a45a53faa75c3826f",
+      "printedPages": "94",
+      "colorCount": 1,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAMAHON": {
+      "fingerprint": "9fa2eb98c9c33db7e9237bc8dc15113f763ffa7988cfcb31caebcc0f85b098a6",
+      "printedPages": "99",
+      "colorCount": 5,
+      "sizeCount": 6,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHLOXFSS": {
+      "fingerprint": "32abf482cc4cc7afd6e2387a4a10376beda2fa113b65ecba10d2b83e89b9eff2",
+      "printedPages": "90",
+      "colorCount": 4,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAPEKINSS": {
+      "fingerprint": "eeabfa2e70fbc382c2e51197f47bc8be93cb3a3d72a296a7abc8ae6e854a1457",
+      "printedPages": "88",
+      "colorCount": 2,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHABERLIN": {
+      "fingerprint": "a07bd6ab16adcabf4ce2115d13c65469209d8051f0c0c8dac2694291b55a2189",
+      "printedPages": "94",
+      "colorCount": 1,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHLOSLO": {
+      "fingerprint": "a6a1600d049fbd573e9a1c6d2f545e00c8702f04cb9b65f3254fc61aaf502b12",
+      "printedPages": "86-87",
+      "colorCount": 2,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHLPOP": {
+      "fingerprint": "b66caff014890bdd83d32e891ece0f6be742ada6738eb3777ccf53e08f05e64d",
+      "printedPages": "92",
+      "colorCount": 7,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHAOXF": {
+      "fingerprint": "6ccc3d91798dae847b80530ccb38eb44be037feaa08fa5a85b16d3503dfbb16c",
+      "printedPages": "90",
+      "colorCount": 8,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHALONDON": {
+      "fingerprint": "e16d9cf399f10e39b7efa88d3ae77feaa04f42167392c9aaa5e5379e9a4f1ba9",
+      "printedPages": "95",
+      "colorCount": 1,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHLOSLOSS": {
+      "fingerprint": "4ffa74049a12354a9a702006d4698e70723018c98a35c2a42727bb74f28b0222",
+      "printedPages": "86",
+      "colorCount": 2,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SHLPOPSS": {
+      "fingerprint": "8a0a949e985d0dc6e35a45699b36d9cd8d63aa611a929683e757f5d47deec13c",
+      "printedPages": "92-93",
+      "colorCount": 6,
+      "sizeCount": 7,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKLISBON": {
+      "fingerprint": "82f15b2739bf20330dcf599018e2bc2d4997a0a0437926325b3caacc36309e37",
+      "printedPages": "80-81",
+      "colorCount": 3,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKDUBLIN": {
+      "fingerprint": "ca31cda01a68a14d582bc5ea4c6c3f6d4c6b643e07c2b2bf0f94970488acb279",
+      "printedPages": "106-107",
+      "colorCount": 3,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKTOKYOL": {
+      "fingerprint": "642ac6358a779bb92cf0700aee17557c20dcb71e388e8cb1c79997d49a7336a8",
+      "printedPages": "104-105",
+      "colorCount": 3,
+      "sizeCount": 8,
+      "pdfFacts": 0,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKTOKYOK": {
+      "fingerprint": "f593d3b2120fa182d66037784a2cdfb9185f3cb736f934477daa49a21095d167",
+      "printedPages": "68-69",
+      "colorCount": 3,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "UNBOXER": {
+      "fingerprint": "04ae920986b1ba97add66268bdd00b410abe3491a72ec0f9e550dce80274278f",
+      "printedPages": "212-213",
+      "colorCount": 3,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWPANTS240": {
+      "fingerprint": "c4d0a3ee8061617c8b536cb8f48829fe22a3728b84e60c08d8e204692a989c26",
+      "printedPages": "143",
+      "colorCount": 6,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKCHESTER": {
+      "fingerprint": "c69633f3920fe4bf85a809ff9efc31947bb93b880bba685453c91ceceb15f231",
+      "printedPages": "109",
+      "colorCount": 4,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKDUBLINL": {
+      "fingerprint": "612d01eed3e4fc6f6e53a64a1e68d19c13a1c12d6c0be010e9998d40ba860024",
+      "printedPages": "106-107",
+      "colorCount": 3,
+      "sizeCount": 8,
+      "pdfFacts": 0,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWPANTSK240": {
+      "fingerprint": "74b9713536e1dcb4b4c512ce32d4e7d0f017410ccea013eb8c4fca17d6a6b39c",
+      "printedPages": "144",
+      "colorCount": 5,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "UNMIDWAY": {
+      "fingerprint": "6404b8c9b4af9159b0c867ac6d11390d879d9fa1e80951cd94290cd938b2816f",
+      "printedPages": "212",
+      "colorCount": 3,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWPANTSCFF": {
+      "fingerprint": "e492c6dc727c672f979f4497a30837130be32fa59ba208d1d4d47e7686817187",
+      "printedPages": "128",
+      "colorCount": 12,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWPANTSM": {
+      "fingerprint": "d5b715cdcc370b74c71c9283335f46da5d1d54254b2e1521b50dfe78e937b67e",
+      "printedPages": "126",
+      "colorCount": 3,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKLARISA": {
+      "fingerprint": "a30bae3007e23fc030efa6864df9888b9be5be93f9f0c49cfc8147a928fb3126",
+      "printedPages": "108",
+      "colorCount": 4,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWPANTSK": {
+      "fingerprint": "34e215332b720151e301c12e3e1f199a314298e501b5986924def904df17716a",
+      "printedPages": "127",
+      "colorCount": 7,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "UNSLIP": {
+      "fingerprint": "04854bf125d535ca7e67b0546d99fc619b755bcb8967f9cd6f9e3a3840bd8c59",
+      "printedPages": "212",
+      "colorCount": 3,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKDUBAI": {
+      "fingerprint": "2aa59a7c1c7734277f622f34b478217c46fd48cc6d8a7ca823d0d5742ddce1c8",
+      "printedPages": "102-103",
+      "colorCount": 3,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWSHORTSM": {
+      "fingerprint": "6f631a71fe1fa49084a49e936e42ebfcbbe65b52c0932cfa545b84fe2a449249",
+      "printedPages": "126",
+      "colorCount": 3,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWPANTSL": {
+      "fingerprint": "2d3e64fbc362a9dc8d5a7d7436e67ebe22c109f7576ab1a6fa35ecb1f08a1d40",
+      "printedPages": "127",
+      "colorCount": 3,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKBOSTON": {
+      "fingerprint": "189ba074ca839c4303c5bce021ce2bf6da1ea08ece8b45fbac09994ac0757577",
+      "printedPages": "110-111",
+      "colorCount": 6,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "UNBRIEFS": {
+      "fingerprint": "9190796ae8fb9632e61dbd3a347f5c5947274224fd63061934b64d15eac6cb2a",
+      "printedPages": "211",
+      "colorCount": 3,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKARIZONA": {
+      "fingerprint": "4bea4a0836d3956582c101de5d8023197f74158331dd87c578257bc7717d0e26",
+      "printedPages": "100-101",
+      "colorCount": 4,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKDUBAIL": {
+      "fingerprint": "7076a1b17f99f94e51ae3e21f5eabf2f60476060aeb226d29e4f80139b230a08",
+      "printedPages": "102-103",
+      "colorCount": 3,
+      "sizeCount": 8,
+      "pdfFacts": 0,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SPLEGGINSL": {
+      "fingerprint": "3f43e0209e9b711a6b61deca45a5eee1b26a69dbba65e6b595e4a443d2d9a034",
+      "printedPages": "207",
+      "colorCount": 3,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKBOSTONL": {
+      "fingerprint": "5921cd5e360397b4cdff3f5f3c5d76ec5612ce35de7bc6289495bd50917257e7",
+      "printedPages": "110-111",
+      "colorCount": 6,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "UNTHONG": {
+      "fingerprint": "4f54fc50f2b41ef5e35a500ea0aa1e734992a702a87159b03888b9e326b566b4",
+      "printedPages": "211",
+      "colorCount": 3,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKTOKYO": {
+      "fingerprint": "d8d8a98fff41eb551f54732b767d7f424c975ceda0869563eb003f5782a5627e",
+      "printedPages": "104-105",
+      "colorCount": 3,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKARIZONAL": {
+      "fingerprint": "b14eeffb06531552bf5d4abc000e4b7df05d07be70254d3819c6cfd596a7e515",
+      "printedPages": "100-101",
+      "colorCount": 4,
+      "sizeCount": 8,
+      "pdfFacts": 0,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SWPANTSB": {
+      "fingerprint": "e412ee46eb0296c8c07a250874db9c6797b58b6bdd4358e85df21851bbc791a0",
+      "printedPages": "147",
+      "colorCount": 6,
+      "sizeCount": 3,
+      "pdfFacts": 0,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKBOSTONK": {
+      "fingerprint": "1504f7956ffbc7fda8b9e822cac86763f83f28df8903988b52469d4be23b6854",
+      "printedPages": "69",
+      "colorCount": 4,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "MICFLEMAN": {
+      "fingerprint": "fd41b768e5505542669f6136795940dd1a5b0a69f52d21664a47a6f53dbc205d",
+      "printedPages": "159",
+      "colorCount": 5,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "JTSOFTJACK": {
+      "fingerprint": "a553f0a9dd08299313f355820268f0cacaa68ba8633c604610ccbc8b7d13faaf",
+      "printedPages": "16",
+      "colorCount": 10,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SOFTVEST": {
+      "fingerprint": "56034666fd80880752b6baddde0598e8d2dc8ecc7ce34bc9f51b3d3a2a97ca45",
+      "printedPages": "164",
+      "colorCount": 7,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKPARIS": {
+      "fingerprint": "d9bb202716634da7857d28f7269021ebcd88d48aeb16ac2bc1db868bbb334ec9",
+      "printedPages": "79",
+      "colorCount": 10,
+      "sizeCount": 1,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKROME": {
+      "fingerprint": "56dfb4e59d44cbc4456c24db36fb9582ccd8e842f5a8d8d7fe0965ca64a1aeef",
+      "printedPages": "82-83",
+      "colorCount": 3,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "FLRA300": {
+      "fingerprint": "1e8fc63ed0629bf7cd39bf9387e47980745fd6f9e628966dbc09b367a444d1b4",
+      "printedPages": "156-157",
+      "colorCount": 18,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "JTSOFTVEST": {
+      "fingerprint": "7039fdb706ba1b181454daf61ace42306743fe06d77c65e8d805530ff64faa54",
+      "printedPages": "16-17",
+      "colorCount": 10,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SOFTHOOD": {
+      "fingerprint": "23e279ffb6fe7765e8424d623d88331629a48f645c84502ceb3ee6579d2885ec",
+      "printedPages": "165",
+      "colorCount": 3,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKVENICE": {
+      "fingerprint": "de902725506e434a5cd9340e2c69b3162d8c5bb46b9e15c271fde530426b3926",
+      "printedPages": "78",
+      "colorCount": 3,
+      "sizeCount": 1,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKROMEL": {
+      "fingerprint": "5e8835c20eec0ece5f0427aa5f36e9db698d4f19b5e2b5c4a45b80dfcb42aa86",
+      "printedPages": "82-83",
+      "colorCount": 3,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "FLRA340": {
+      "fingerprint": "c77113303fb1998f6626fb4e9bcd13b868bb5bc29563de106b5791cb15c9b9d5",
+      "printedPages": "160-161",
+      "colorCount": 8,
+      "sizeCount": 9,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "RAINCOAT": {
+      "fingerprint": "35d6aa311ca0d004faad9b53503b132d660663cf20465ef532720781eb3902e5",
+      "printedPages": "169",
+      "colorCount": 6,
+      "sizeCount": 8,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SOFTJACKL": {
+      "fingerprint": "fa1ddadb159aeb957c6fa82fcaf8f85d0d86166e8174b9ed5cc873460480f103",
+      "printedPages": "162-163",
+      "colorCount": 7,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKVIENNA": {
+      "fingerprint": "101753ea5b4230a88be362c2cdb21bc6e6c6a494b4bbcd48107a039f1ff848d0",
+      "printedPages": "78",
+      "colorCount": 7,
+      "sizeCount": 1,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "MICFLELADY": {
+      "fingerprint": "1a6bbe80dd0c433ea272ab3b83c8ad6a8a4ed5892f287c3c991343e2ce4d262a",
+      "printedPages": "158",
+      "colorCount": 6,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "PADJACKET": {
+      "fingerprint": "c778ac2a4c7be2c336fade5ae87cb7ac14a60c73cd1877716e353507be100faa",
+      "printedPages": "166-167",
+      "colorCount": 5,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SOFTHOODL": {
+      "fingerprint": "844a80fb7735341f7bd00a76e0254d95ddf4ac6e9bdebe32310541358e8360ff",
+      "printedPages": "164",
+      "colorCount": 3,
+      "sizeCount": 4,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "WKPARISK": {
+      "fingerprint": "3807822e6cb58807958b6325e2b3d33145488e23f879f9bc36e59c78f68f880a",
+      "printedPages": "68-69",
+      "colorCount": 6,
+      "sizeCount": 1,
+      "pdfFacts": 2,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "FLRL300": {
+      "fingerprint": "43e92625a4b39db95620fb7272ae449091ba5590824e35c600efbcd535184ac1",
+      "printedPages": "156-157",
+      "colorCount": 18,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "PADVEST": {
+      "fingerprint": "30a508c9ae53d0b4b83503334eaae83e7fbc27654aca28648fdd813fefeb7d19",
+      "printedPages": "168",
+      "colorCount": 5,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SOFTJACKID": {
+      "fingerprint": "82bca8e695c91e71fa1d6071331c50827fb5edd77568b69b19fde0e9df45de9c",
+      "printedPages": "162-163",
+      "colorCount": 6,
+      "sizeCount": 5,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "FLRK300": {
+      "fingerprint": "c3061415985c328c892c378294358245aa425c5add494959b4028a10a606b04f",
+      "printedPages": "156-157",
+      "colorCount": 9,
+      "sizeCount": 6,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    },
+    "SOFTJACK": {
+      "fingerprint": "2ed198cd331f645d84453c0f634aa1d8a88658d368162f3688582e73dd820be2",
+      "printedPages": "162-163",
+      "colorCount": 7,
+      "sizeCount": 7,
+      "pdfFacts": 3,
+      "method": "Directorio completo + OCR Windows y Tesseract + matriz oficial por color/talla + revisión visual de imágenes y de discrepancias documentadas."
+    }
+  }
+}

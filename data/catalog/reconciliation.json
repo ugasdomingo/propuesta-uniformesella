@@ -1,0 +1,2050 @@
+{
+  "directoryEntries": 201,
+  "products": 197,
+  "grouping": {
+    "PORA210": [
+      "PORA210",
+      "PORA210(WASH)",
+      "PORA210(CONTRAST)"
+    ],
+    "POPL200": [
+      "POPL200",
+      "POPL200(CONTRAST)"
+    ],
+    "PKID210": [
+      "PKID210",
+      "PKID210(CONTRAST)"
+    ]
+  },
+  "referenceCorrections": {
+    "TSR1600RG": "TSR160ORG"
+  },
+  "supplierAlias": {
+    "JTSOFTJAC": "JTSOFTJACK"
+  },
+  "pdfFacts": 556,
+  "unresolved": [],
+  "references": [
+    {
+      "reference": "JT150",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "10-11",
+      "colors": 25,
+      "validVariants": 186,
+      "notes": []
+    },
+    {
+      "reference": "TSRA150LS",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "35",
+      "colors": 13,
+      "validVariants": 117,
+      "notes": []
+    },
+    {
+      "reference": "TSRA190",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "32-33",
+      "colors": 60,
+      "validVariants": 373,
+      "notes": [
+        "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+      ]
+    },
+    {
+      "reference": "TSUAPICO",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "178",
+      "colors": 18,
+      "validVariants": 90,
+      "notes": [
+        "Página 178 revisada visualmente: 18 colores. SL, PB, MO y BT son novedades del PDF que faltan en la ficha online."
+      ]
+    },
+    {
+      "reference": "SPORTARBM",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "201",
+      "colors": 6,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "TSRLCMFLS",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "34",
+      "colors": 7,
+      "validVariants": 35,
+      "notes": []
+    },
+    {
+      "reference": "JTSPORT",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "13",
+      "colors": 10,
+      "validVariants": 50,
+      "notes": []
+    },
+    {
+      "reference": "TSR160ORG",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "26",
+      "colors": 5,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "TSSEA",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "181",
+      "colors": 4,
+      "validVariants": 16,
+      "notes": []
+    },
+    {
+      "reference": "TSUA150",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "182-183",
+      "colors": 12,
+      "validVariants": 60,
+      "notes": []
+    },
+    {
+      "reference": "SPORTMANLS",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "207",
+      "colors": 7,
+      "validVariants": 35,
+      "notes": []
+    },
+    {
+      "reference": "SBTSLCMF",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "74-75",
+      "colors": 1,
+      "validVariants": 6,
+      "notes": []
+    },
+    {
+      "reference": "TSRA150",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "20-21",
+      "colors": 90,
+      "validVariants": 577,
+      "notes": [
+        "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+      ]
+    },
+    {
+      "reference": "TSR160DGP",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "26",
+      "colors": 1,
+      "validVariants": 6,
+      "notes": []
+    },
+    {
+      "reference": "TSUASLB",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "181",
+      "colors": 2,
+      "validVariants": 4,
+      "notes": []
+    },
+    {
+      "reference": "TSUAOVER",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "176-177",
+      "colors": 12,
+      "validVariants": 72,
+      "notes": []
+    },
+    {
+      "reference": "SPORTCTRM",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "206",
+      "colors": 4,
+      "validVariants": 24,
+      "notes": []
+    },
+    {
+      "reference": "TSRLPRM",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "28-29",
+      "colors": 12,
+      "validVariants": 72,
+      "notes": []
+    },
+    {
+      "reference": "TSRA150WLT",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "70-71",
+      "colors": 1,
+      "validVariants": 9,
+      "notes": [
+        "La carta indica WLT: blanco especial para tintar, identificado internamente como WH por el fabricante. No equivale al blanco convencional.",
+        "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+      ]
+    },
+    {
+      "reference": "TSR160COMB",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "27",
+      "colors": 12,
+      "validVariants": 72,
+      "notes": []
+    },
+    {
+      "reference": "TSUATNK",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "184",
+      "colors": 8,
+      "validVariants": 40,
+      "notes": []
+    },
+    {
+      "reference": "TSUABOXY",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "172-173",
+      "colors": 2,
+      "validVariants": 12,
+      "notes": []
+    },
+    {
+      "reference": "SPORTRGLM",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "206",
+      "colors": 8,
+      "validVariants": 40,
+      "notes": []
+    },
+    {
+      "reference": "TSRLPRMLS",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "36",
+      "colors": 6,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "SBTSMAN",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "74-75",
+      "colors": 1,
+      "validVariants": 7,
+      "notes": []
+    },
+    {
+      "reference": "TSRA170",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "30-31",
+      "colors": 12,
+      "validVariants": 84,
+      "notes": []
+    },
+    {
+      "reference": "TSUASTRPM",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "185",
+      "colors": 11,
+      "validVariants": 55,
+      "notes": []
+    },
+    {
+      "reference": "TSUAOVER240",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "174-175",
+      "colors": 7,
+      "validVariants": 42,
+      "notes": []
+    },
+    {
+      "reference": "TSRLCMF",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "22-23",
+      "colors": 40,
+      "validVariants": 200,
+      "notes": []
+    },
+    {
+      "reference": "CURVSSLUB",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "72",
+      "colors": 2,
+      "validVariants": 8,
+      "notes": []
+    },
+    {
+      "reference": "TS150ST",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "24-25",
+      "colors": 25,
+      "validVariants": 166,
+      "notes": []
+    },
+    {
+      "reference": "TSRA170LS",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "37",
+      "colors": 10,
+      "validVariants": 70,
+      "notes": []
+    },
+    {
+      "reference": "TSUALBCH",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "186",
+      "colors": 7,
+      "validVariants": 35,
+      "notes": []
+    },
+    {
+      "reference": "SPORTMAN",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "196-197",
+      "colors": 17,
+      "validVariants": 102,
+      "notes": []
+    },
+    {
+      "reference": "TSRLCMFWLT",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "70-71",
+      "colors": 1,
+      "validVariants": 5,
+      "notes": [
+        "Blanco WLT especial para tintar; no es el blanco convencional."
+      ]
+    },
+    {
+      "reference": "CURVS150",
+      "directorySheets": [
+        "110-L"
+      ],
+      "printedPages": "73",
+      "colors": 9,
+      "validVariants": 36,
+      "notes": []
+    },
+    {
+      "reference": "CURVSPICO",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "73",
+      "colors": 9,
+      "validVariants": 36,
+      "notes": []
+    },
+    {
+      "reference": "TSULTBG",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "193",
+      "colors": 4,
+      "validVariants": 12,
+      "notes": []
+    },
+    {
+      "reference": "TSULMALIA",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "189",
+      "colors": 4,
+      "validVariants": 20,
+      "notes": []
+    },
+    {
+      "reference": "TSRBSUIT",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "50",
+      "colors": 5,
+      "validVariants": 25,
+      "notes": []
+    },
+    {
+      "reference": "TSRK150WLT",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "70-71",
+      "colors": 1,
+      "validVariants": 5,
+      "notes": [
+        "Blanco WLT especial para tintar; tallas infantiles."
+      ]
+    },
+    {
+      "reference": "SPORTKID",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "198",
+      "colors": 9,
+      "validVariants": 45,
+      "notes": []
+    },
+    {
+      "reference": "TSLSEA",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "180",
+      "colors": 3,
+      "validVariants": 6,
+      "notes": []
+    },
+    {
+      "reference": "TSULSCL",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "191",
+      "colors": 18,
+      "validVariants": 72,
+      "notes": []
+    },
+    {
+      "reference": "SPORTLADY",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "199",
+      "colors": 14,
+      "validVariants": 70,
+      "notes": []
+    },
+    {
+      "reference": "TSRBBODYLS",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "50",
+      "colors": 5,
+      "validVariants": 25,
+      "notes": []
+    },
+    {
+      "reference": "TSUKSEA",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "62",
+      "colors": 1,
+      "validVariants": 6,
+      "notes": []
+    },
+    {
+      "reference": "TSULSLB",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "180",
+      "colors": 7,
+      "validVariants": 14,
+      "notes": []
+    },
+    {
+      "reference": "TSRLCMFP",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "179",
+      "colors": 22,
+      "validVariants": 110,
+      "notes": []
+    },
+    {
+      "reference": "SPORTARBL",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "200",
+      "colors": 6,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "SBTSKID",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "74-75",
+      "colors": 1,
+      "validVariants": 5,
+      "notes": []
+    },
+    {
+      "reference": "TSUKBSB",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "62",
+      "colors": 5,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "TSULIBIZA",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "188",
+      "colors": 5,
+      "validVariants": 10,
+      "notes": []
+    },
+    {
+      "reference": "TSULSAONA",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "193",
+      "colors": 2,
+      "validVariants": 8,
+      "notes": []
+    },
+    {
+      "reference": "TSRBODY150",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "51",
+      "colors": 11,
+      "validVariants": 55,
+      "notes": []
+    },
+    {
+      "reference": "TSRK150",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "54-55",
+      "colors": 50,
+      "validVariants": 250,
+      "notes": []
+    },
+    {
+      "reference": "TSRK150LS",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "58-59",
+      "colors": 12,
+      "validVariants": 65,
+      "notes": []
+    },
+    {
+      "reference": "TSULMLDV",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "192",
+      "colors": 11,
+      "validVariants": 22,
+      "notes": []
+    },
+    {
+      "reference": "TSULVCTR",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "190",
+      "colors": 10,
+      "validVariants": 40,
+      "notes": []
+    },
+    {
+      "reference": "TSRB150",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "52-53",
+      "colors": 21,
+      "validVariants": 63,
+      "notes": []
+    },
+    {
+      "reference": "TSLKTVL",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "63",
+      "colors": 13,
+      "validVariants": 65,
+      "notes": []
+    },
+    {
+      "reference": "TSRKSTRAP",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "60",
+      "colors": 6,
+      "validVariants": 30,
+      "notes": [
+        "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+      ]
+    },
+    {
+      "reference": "TSULPAPLS",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "192",
+      "colors": 6,
+      "validVariants": 12,
+      "notes": []
+    },
+    {
+      "reference": "TSULARB",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "187",
+      "colors": 13,
+      "validVariants": 65,
+      "notes": []
+    },
+    {
+      "reference": "TSRBBODY",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "48-49",
+      "colors": 15,
+      "validVariants": 75,
+      "notes": []
+    },
+    {
+      "reference": "TSLKTNG",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "61",
+      "colors": 13,
+      "validVariants": 65,
+      "notes": []
+    },
+    {
+      "reference": "TSRK190",
+      "directorySheets": [
+        "110-R"
+      ],
+      "printedPages": "56-57",
+      "colors": 25,
+      "validVariants": 125,
+      "notes": []
+    },
+    {
+      "reference": "JTSWCR",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "14",
+      "colors": 21,
+      "validVariants": 147,
+      "notes": []
+    },
+    {
+      "reference": "SWCRPEACH",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "145",
+      "colors": 5,
+      "validVariants": 25,
+      "notes": []
+    },
+    {
+      "reference": "SWRAFUZIP",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "122",
+      "colors": 11,
+      "validVariants": 66,
+      "notes": []
+    },
+    {
+      "reference": "SWHOODECO",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "154",
+      "colors": 8,
+      "validVariants": 56,
+      "notes": []
+    },
+    {
+      "reference": "JTSWKNG",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "15",
+      "colors": 21,
+      "validVariants": 147,
+      "notes": []
+    },
+    {
+      "reference": "SWKNGPEACH",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "145",
+      "colors": 5,
+      "validVariants": 25,
+      "notes": []
+    },
+    {
+      "reference": "SWUAHOOD",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "123",
+      "colors": 20,
+      "validVariants": 124,
+      "notes": []
+    },
+    {
+      "reference": "SWCRL240",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "136",
+      "colors": 5,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "SWCR240",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "137",
+      "colors": 9,
+      "validVariants": 54,
+      "notes": []
+    },
+    {
+      "reference": "SWRA290",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "114-115",
+      "colors": 80,
+      "validVariants": 485,
+      "notes": []
+    },
+    {
+      "reference": "SWKNG320",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "130-131",
+      "colors": 15,
+      "validVariants": 105,
+      "notes": []
+    },
+    {
+      "reference": "SWULKNG240",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "138",
+      "colors": 5,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "SWKNG240",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "139",
+      "colors": 9,
+      "validVariants": 54,
+      "notes": []
+    },
+    {
+      "reference": "SWRARGL",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "120",
+      "colors": 10,
+      "validVariants": 70,
+      "notes": []
+    },
+    {
+      "reference": "SWKNGOVER",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "132-133",
+      "colors": 12,
+      "validVariants": 72,
+      "notes": []
+    },
+    {
+      "reference": "SWULHOOD240",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "140",
+      "colors": 5,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "SWUAHOOD240",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "141",
+      "colors": 9,
+      "validVariants": 54,
+      "notes": []
+    },
+    {
+      "reference": "SWRAKNG",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "116-117",
+      "colors": 80,
+      "validVariants": 572,
+      "notes": []
+    },
+    {
+      "reference": "SWRAECO",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "150-151",
+      "colors": 8,
+      "validVariants": 56,
+      "notes": []
+    },
+    {
+      "reference": "SWULKNG",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "118",
+      "colors": 19,
+      "validVariants": 95,
+      "notes": []
+    },
+    {
+      "reference": "SWFUZIP240",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "142",
+      "colors": 6,
+      "validVariants": 36,
+      "notes": []
+    },
+    {
+      "reference": "SWRAZIP",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "121",
+      "colors": 11,
+      "validVariants": 55,
+      "notes": [
+        "Errata del directorio: indica 122. La ficha Half Zip Sweatshirt SWRAZIP está en la página impresa 121, digital 61 derecha."
+      ]
+    },
+    {
+      "reference": "SWKNGECO",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "152-153",
+      "colors": 8,
+      "validVariants": 56,
+      "notes": []
+    },
+    {
+      "reference": "SWULCROP",
+      "directorySheets": [
+        "111-L"
+      ],
+      "printedPages": "129",
+      "colors": 4,
+      "validVariants": 16,
+      "notes": []
+    },
+    {
+      "reference": "SWRBSUIT",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "146",
+      "colors": 5,
+      "validVariants": 25,
+      "notes": []
+    },
+    {
+      "reference": "SWRKECO",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "150-151",
+      "colors": 8,
+      "validVariants": 48,
+      "notes": []
+    },
+    {
+      "reference": "SWRBHOOD",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "147",
+      "colors": 6,
+      "validVariants": 18,
+      "notes": [
+        "Página 147 revisada visualmente: 6 colores, incluido SK, novedad que falta online."
+      ]
+    },
+    {
+      "reference": "SWKNGKECO",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "152-153",
+      "colors": 8,
+      "validVariants": 48,
+      "notes": []
+    },
+    {
+      "reference": "SWRK240",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "136",
+      "colors": 4,
+      "validVariants": 24,
+      "notes": []
+    },
+    {
+      "reference": "SWRK290",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "118",
+      "colors": 21,
+      "validVariants": 126,
+      "notes": []
+    },
+    {
+      "reference": "SWRKKNG240",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "138",
+      "colors": 4,
+      "validVariants": 24,
+      "notes": []
+    },
+    {
+      "reference": "SWRKKNG",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "119",
+      "colors": 23,
+      "validVariants": 138,
+      "notes": []
+    },
+    {
+      "reference": "SWRKHOOD240",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "140",
+      "colors": 3,
+      "validVariants": 18,
+      "notes": []
+    },
+    {
+      "reference": "SWRKHOOD",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "124-125",
+      "colors": 12,
+      "validVariants": 72,
+      "notes": []
+    },
+    {
+      "reference": "SWRKFUZIP240",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "142",
+      "colors": 3,
+      "validVariants": 18,
+      "notes": []
+    },
+    {
+      "reference": "SWRKFUZIP",
+      "directorySheets": [
+        "111-R"
+      ],
+      "printedPages": "124-125",
+      "colors": 8,
+      "validVariants": 48,
+      "notes": []
+    },
+    {
+      "reference": "JTPOLO",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "12",
+      "colors": 10,
+      "validVariants": 60,
+      "notes": [
+        "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+      ]
+    },
+    {
+      "reference": "PORA210WK",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "84-85",
+      "colors": 10,
+      "validVariants": 68,
+      "notes": []
+    },
+    {
+      "reference": "CURVSPOLO",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "72",
+      "colors": 7,
+      "validVariants": 28,
+      "notes": []
+    },
+    {
+      "reference": "PKID210SCH",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "66-67",
+      "colors": 6,
+      "validVariants": 36,
+      "notes": []
+    },
+    {
+      "reference": "PORA210",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "38-39, 40, 41",
+      "colors": 63,
+      "validVariants": 402,
+      "notes": []
+    },
+    {
+      "reference": "SPORTPIQUE",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "202-203",
+      "colors": 8,
+      "validVariants": 40,
+      "notes": []
+    },
+    {
+      "reference": "POPL200WK",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "84-85",
+      "colors": 10,
+      "validVariants": 60,
+      "notes": [
+        "Gramaje contrastado con la ficha del cuerpo del PDF; prevalece sobre el resumen del directorio."
+      ]
+    },
+    {
+      "reference": "PKID210LS",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "66",
+      "colors": 9,
+      "validVariants": 54,
+      "notes": []
+    },
+    {
+      "reference": "SPHEAVYMEN",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "205",
+      "colors": 7,
+      "validVariants": 35,
+      "notes": [
+        "Página 205 revisada visualmente: 7 colores. Excluido WHNY, que aparece solo en la ficha online. Tallas S-XXL."
+      ]
+    },
+    {
+      "reference": "SPORTPQLADY",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "202-203",
+      "colors": 7,
+      "validVariants": 42,
+      "notes": []
+    },
+    {
+      "reference": "SPORTPQKID",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "202-203",
+      "colors": 4,
+      "validVariants": 20,
+      "notes": []
+    },
+    {
+      "reference": "POPL200",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "44-45, 44",
+      "colors": 38,
+      "validVariants": 196,
+      "notes": []
+    },
+    {
+      "reference": "SPHEAVYLDY",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "204",
+      "colors": 7,
+      "validVariants": 42,
+      "notes": [
+        "Página 204 revisada visualmente: 7 colores, sin WHNY. Tallas S-3XL."
+      ]
+    },
+    {
+      "reference": "PORA210LS",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "47",
+      "colors": 17,
+      "validVariants": 112,
+      "notes": []
+    },
+    {
+      "reference": "PKID210",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "64-65, 64",
+      "colors": 29,
+      "validVariants": 167,
+      "notes": []
+    },
+    {
+      "reference": "PORA240",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "42-43",
+      "colors": 15,
+      "validVariants": 105,
+      "notes": []
+    },
+    {
+      "reference": "POPL200LS",
+      "directorySheets": [
+        "112-L"
+      ],
+      "printedPages": "46",
+      "colors": 10,
+      "validVariants": 70,
+      "notes": []
+    },
+    {
+      "reference": "WKOPORTO",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "80-81",
+      "colors": 3,
+      "validVariants": 21,
+      "notes": []
+    },
+    {
+      "reference": "SHAOXFSS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "90-91",
+      "colors": 4,
+      "validVariants": 28,
+      "notes": []
+    },
+    {
+      "reference": "SHAMONACO",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "95",
+      "colors": 1,
+      "validVariants": 7,
+      "notes": []
+    },
+    {
+      "reference": "SHLPEKIN",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "88",
+      "colors": 2,
+      "validVariants": 14,
+      "notes": []
+    },
+    {
+      "reference": "SHLTEXAS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "96",
+      "colors": 1,
+      "validVariants": 7,
+      "notes": []
+    },
+    {
+      "reference": "SHAOSLO",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "86-87",
+      "colors": 2,
+      "validVariants": 14,
+      "notes": []
+    },
+    {
+      "reference": "SHAPOP",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "92-93",
+      "colors": 7,
+      "validVariants": 49,
+      "notes": []
+    },
+    {
+      "reference": "SHATEXAS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "96-97",
+      "colors": 1,
+      "validVariants": 8,
+      "notes": []
+    },
+    {
+      "reference": "SHLPEKINSS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "88-89",
+      "colors": 2,
+      "validVariants": 14,
+      "notes": []
+    },
+    {
+      "reference": "SHAOSLOSS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "86-87",
+      "colors": 2,
+      "validVariants": 14,
+      "notes": []
+    },
+    {
+      "reference": "SHAPOPSS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "92",
+      "colors": 6,
+      "validVariants": 42,
+      "notes": []
+    },
+    {
+      "reference": "SHATULUM",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "98",
+      "colors": 5,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "SHLOXF",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "90-91",
+      "colors": 8,
+      "validVariants": 56,
+      "notes": []
+    },
+    {
+      "reference": "SHAPEKIN",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "88-89",
+      "colors": 2,
+      "validVariants": 14,
+      "notes": []
+    },
+    {
+      "reference": "SHAMILAN",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "94",
+      "colors": 1,
+      "validVariants": 7,
+      "notes": []
+    },
+    {
+      "reference": "SHAMAHON",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "99",
+      "colors": 5,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "SHLOXFSS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "90",
+      "colors": 4,
+      "validVariants": 28,
+      "notes": []
+    },
+    {
+      "reference": "SHAPEKINSS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "88",
+      "colors": 2,
+      "validVariants": 14,
+      "notes": []
+    },
+    {
+      "reference": "SHABERLIN",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "94",
+      "colors": 1,
+      "validVariants": 7,
+      "notes": []
+    },
+    {
+      "reference": "SHLOSLO",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "86-87",
+      "colors": 2,
+      "validVariants": 14,
+      "notes": []
+    },
+    {
+      "reference": "SHLPOP",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "92",
+      "colors": 7,
+      "validVariants": 49,
+      "notes": []
+    },
+    {
+      "reference": "SHAOXF",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "90",
+      "colors": 8,
+      "validVariants": 56,
+      "notes": []
+    },
+    {
+      "reference": "SHALONDON",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "95",
+      "colors": 1,
+      "validVariants": 7,
+      "notes": []
+    },
+    {
+      "reference": "SHLOSLOSS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "86",
+      "colors": 2,
+      "validVariants": 14,
+      "notes": []
+    },
+    {
+      "reference": "SHLPOPSS",
+      "directorySheets": [
+        "112-R"
+      ],
+      "printedPages": "92-93",
+      "colors": 6,
+      "validVariants": 42,
+      "notes": []
+    },
+    {
+      "reference": "WKLISBON",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "80-81",
+      "colors": 3,
+      "validVariants": 21,
+      "notes": []
+    },
+    {
+      "reference": "WKDUBLIN",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "106-107",
+      "colors": 3,
+      "validVariants": 27,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "WKTOKYOL",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "104-105",
+      "colors": 3,
+      "validVariants": 24,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "WKTOKYOK",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "68-69",
+      "colors": 3,
+      "validVariants": 15,
+      "notes": []
+    },
+    {
+      "reference": "UNBOXER",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "212-213",
+      "colors": 3,
+      "validVariants": 18,
+      "notes": []
+    },
+    {
+      "reference": "SWPANTS240",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "143",
+      "colors": 6,
+      "validVariants": 42,
+      "notes": []
+    },
+    {
+      "reference": "WKCHESTER",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "109",
+      "colors": 4,
+      "validVariants": 36,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "WKDUBLINL",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "106-107",
+      "colors": 3,
+      "validVariants": 24,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "SWPANTSK240",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "144",
+      "colors": 5,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "UNMIDWAY",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "212",
+      "colors": 3,
+      "validVariants": 18,
+      "notes": []
+    },
+    {
+      "reference": "SWPANTSCFF",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "128",
+      "colors": 12,
+      "validVariants": 60,
+      "notes": []
+    },
+    {
+      "reference": "SWPANTSM",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "126",
+      "colors": 3,
+      "validVariants": 15,
+      "notes": []
+    },
+    {
+      "reference": "WKLARISA",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "108",
+      "colors": 4,
+      "validVariants": 28,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "SWPANTSK",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "127",
+      "colors": 7,
+      "validVariants": 42,
+      "notes": []
+    },
+    {
+      "reference": "UNSLIP",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "212",
+      "colors": 3,
+      "validVariants": 18,
+      "notes": []
+    },
+    {
+      "reference": "WKDUBAI",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "102-103",
+      "colors": 3,
+      "validVariants": 27,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "SWSHORTSM",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "126",
+      "colors": 3,
+      "validVariants": 12,
+      "notes": []
+    },
+    {
+      "reference": "SWPANTSL",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "127",
+      "colors": 3,
+      "validVariants": 15,
+      "notes": []
+    },
+    {
+      "reference": "WKBOSTON",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "110-111",
+      "colors": 6,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "UNBRIEFS",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "211",
+      "colors": 3,
+      "validVariants": 18,
+      "notes": []
+    },
+    {
+      "reference": "WKARIZONA",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "100-101",
+      "colors": 4,
+      "validVariants": 27,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "WKDUBAIL",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "102-103",
+      "colors": 3,
+      "validVariants": 24,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "SPLEGGINSL",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "207",
+      "colors": 3,
+      "validVariants": 15,
+      "notes": []
+    },
+    {
+      "reference": "WKBOSTONL",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "110-111",
+      "colors": 6,
+      "validVariants": 24,
+      "notes": []
+    },
+    {
+      "reference": "UNTHONG",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "211",
+      "colors": 3,
+      "validVariants": 18,
+      "notes": []
+    },
+    {
+      "reference": "WKTOKYO",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "104-105",
+      "colors": 3,
+      "validVariants": 27,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "WKARIZONAL",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "100-101",
+      "colors": 4,
+      "validVariants": 32,
+      "notes": [
+        "Se usa la talla alfabética del PDF. La guía conserva la equivalencia numérica de la ficha oficial del fabricante."
+      ]
+    },
+    {
+      "reference": "SWPANTSB",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "147",
+      "colors": 6,
+      "validVariants": 18,
+      "notes": [
+        "Comparte carta de 6 colores y composición con SWRBHOOD en la página 147. SK también está disponible en el pantalón."
+      ]
+    },
+    {
+      "reference": "WKBOSTONK",
+      "directorySheets": [
+        "113-L"
+      ],
+      "printedPages": "69",
+      "colors": 4,
+      "validVariants": 24,
+      "notes": []
+    },
+    {
+      "reference": "MICFLEMAN",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "159",
+      "colors": 5,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "JTSOFTJACK",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "16",
+      "colors": 10,
+      "validVariants": 70,
+      "notes": [
+        "Se conserva la referencia JTSOFTJACK del PDF y del directorio; la web oficial la abrevia como JTSOFTJAC."
+      ]
+    },
+    {
+      "reference": "SOFTVEST",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "164",
+      "colors": 7,
+      "validVariants": 35,
+      "notes": []
+    },
+    {
+      "reference": "WKPARIS",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "79",
+      "colors": 10,
+      "validVariants": 10,
+      "notes": []
+    },
+    {
+      "reference": "WKROME",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "82-83",
+      "colors": 3,
+      "validVariants": 18,
+      "notes": []
+    },
+    {
+      "reference": "FLRA300",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "156-157",
+      "colors": 18,
+      "validVariants": 126,
+      "notes": []
+    },
+    {
+      "reference": "JTSOFTVEST",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "16-17",
+      "colors": 10,
+      "validVariants": 50,
+      "notes": []
+    },
+    {
+      "reference": "SOFTHOOD",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "165",
+      "colors": 3,
+      "validVariants": 21,
+      "notes": []
+    },
+    {
+      "reference": "WKVENICE",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "78",
+      "colors": 3,
+      "validVariants": 3,
+      "notes": []
+    },
+    {
+      "reference": "WKROMEL",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "82-83",
+      "colors": 3,
+      "validVariants": 18,
+      "notes": []
+    },
+    {
+      "reference": "FLRA340",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "160-161",
+      "colors": 8,
+      "validVariants": 72,
+      "notes": []
+    },
+    {
+      "reference": "RAINCOAT",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "169",
+      "colors": 6,
+      "validVariants": 48,
+      "notes": []
+    },
+    {
+      "reference": "SOFTJACKL",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "162-163",
+      "colors": 7,
+      "validVariants": 28,
+      "notes": []
+    },
+    {
+      "reference": "WKVIENNA",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "78",
+      "colors": 7,
+      "validVariants": 7,
+      "notes": []
+    },
+    {
+      "reference": "MICFLELADY",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "158",
+      "colors": 6,
+      "validVariants": 36,
+      "notes": []
+    },
+    {
+      "reference": "PADJACKET",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "166-167",
+      "colors": 5,
+      "validVariants": 35,
+      "notes": []
+    },
+    {
+      "reference": "SOFTHOODL",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "164",
+      "colors": 3,
+      "validVariants": 12,
+      "notes": []
+    },
+    {
+      "reference": "WKPARISK",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "68-69",
+      "colors": 6,
+      "validVariants": 6,
+      "notes": []
+    },
+    {
+      "reference": "FLRL300",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "156-157",
+      "colors": 18,
+      "validVariants": 108,
+      "notes": []
+    },
+    {
+      "reference": "PADVEST",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "168",
+      "colors": 5,
+      "validVariants": 25,
+      "notes": []
+    },
+    {
+      "reference": "SOFTJACKID",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "162-163",
+      "colors": 6,
+      "validVariants": 30,
+      "notes": []
+    },
+    {
+      "reference": "FLRK300",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "156-157",
+      "colors": 9,
+      "validVariants": 54,
+      "notes": []
+    },
+    {
+      "reference": "SOFTJACK",
+      "directorySheets": [
+        "113-R"
+      ],
+      "printedPages": "162-163",
+      "colors": 7,
+      "validVariants": 49,
+      "notes": []
+    }
+  ]
+}

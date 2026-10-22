@@ -1,0 +1,1610 @@
+[
+  {
+    "reference": "JT150",
+    "collection": "JT",
+    "printedPages": "10-11",
+    "directorySheet": "110-L",
+    "expectedColors": 25,
+    "weight": null
+  },
+  {
+    "reference": "TSRA150LS",
+    "collection": "REGULAR",
+    "printedPages": "35",
+    "directorySheet": "110-L",
+    "expectedColors": 13,
+    "weight": "155"
+  },
+  {
+    "reference": "TSRA190",
+    "collection": "REGULAR",
+    "printedPages": "32-33",
+    "directorySheet": "110-L",
+    "expectedColors": 60,
+    "weight": "190"
+  },
+  {
+    "reference": "TSUAPICO",
+    "collection": "URBAN",
+    "printedPages": "178",
+    "directorySheet": "110-L",
+    "expectedColors": 18,
+    "weight": "160"
+  },
+  {
+    "reference": "SPORTARBM",
+    "collection": "SPORT",
+    "printedPages": "201",
+    "directorySheet": "110-L",
+    "expectedColors": 6,
+    "weight": "130"
+  },
+  {
+    "reference": "TSRLCMFLS",
+    "collection": "REGULAR",
+    "printedPages": "34",
+    "directorySheet": "110-L",
+    "expectedColors": 7,
+    "weight": "145"
+  },
+  {
+    "reference": "JTSPORT",
+    "collection": "JT",
+    "printedPages": "13",
+    "directorySheet": "110-L",
+    "expectedColors": 10,
+    "weight": "130"
+  },
+  {
+    "reference": "TSR1600RG",
+    "collection": "REGULAR",
+    "printedPages": "26",
+    "directorySheet": "110-L",
+    "expectedColors": 5,
+    "weight": "160"
+  },
+  {
+    "reference": "TSSEA",
+    "collection": "URBAN",
+    "printedPages": "181",
+    "directorySheet": "110-L",
+    "expectedColors": 4,
+    "weight": "120"
+  },
+  {
+    "reference": "TSUA150",
+    "collection": "URBAN",
+    "printedPages": "182-183",
+    "directorySheet": "110-L",
+    "expectedColors": 12,
+    "weight": "160"
+  },
+  {
+    "reference": "SPORTMANLS",
+    "collection": "SPORT",
+    "printedPages": "207",
+    "directorySheet": "110-L",
+    "expectedColors": 7,
+    "weight": "130"
+  },
+  {
+    "reference": "SBTSLCMF",
+    "collection": "REGULAR",
+    "printedPages": "74-75",
+    "directorySheet": "110-L",
+    "expectedColors": 1,
+    "weight": "150"
+  },
+  {
+    "reference": "TSRA150",
+    "collection": "REGULAR",
+    "printedPages": "20-21",
+    "directorySheet": "110-L",
+    "expectedColors": 90,
+    "weight": "150"
+  },
+  {
+    "reference": "TSR160DGP",
+    "collection": "REGULAR",
+    "printedPages": "26",
+    "directorySheet": "110-L",
+    "expectedColors": 1,
+    "weight": "160"
+  },
+  {
+    "reference": "TSUASLB",
+    "collection": "URBAN",
+    "printedPages": "181",
+    "directorySheet": "110-L",
+    "expectedColors": 2,
+    "weight": "120"
+  },
+  {
+    "reference": "TSUAOVER",
+    "collection": "URBAN",
+    "printedPages": "176-177",
+    "directorySheet": "110-L",
+    "expectedColors": 12,
+    "weight": "200"
+  },
+  {
+    "reference": "SPORTCTRM",
+    "collection": "SPORT",
+    "printedPages": "206",
+    "directorySheet": "110-L",
+    "expectedColors": 4,
+    "weight": "130"
+  },
+  {
+    "reference": "TSRLPRM",
+    "collection": "REGULAR",
+    "printedPages": "28-29",
+    "directorySheet": "110-L",
+    "expectedColors": 12,
+    "weight": "170"
+  },
+  {
+    "reference": "TSRA150WLT",
+    "collection": "REGULAR/WLT",
+    "printedPages": "70-71",
+    "directorySheet": "110-L",
+    "expectedColors": 1,
+    "weight": "150"
+  },
+  {
+    "reference": "TSR160COMB",
+    "collection": "REGULAR",
+    "printedPages": "27",
+    "directorySheet": "110-L",
+    "expectedColors": 12,
+    "weight": "160"
+  },
+  {
+    "reference": "TSUATNK",
+    "collection": "URBAN",
+    "printedPages": "184",
+    "directorySheet": "110-L",
+    "expectedColors": 8,
+    "weight": "150-155"
+  },
+  {
+    "reference": "TSUABOXY",
+    "collection": "URBAN",
+    "printedPages": "172-173",
+    "directorySheet": "110-L",
+    "expectedColors": 2,
+    "weight": "240"
+  },
+  {
+    "reference": "SPORTRGLM",
+    "collection": "SPORT",
+    "printedPages": "206",
+    "directorySheet": "110-L",
+    "expectedColors": 8,
+    "weight": "140"
+  },
+  {
+    "reference": "TSRLPRMLS",
+    "collection": "REGULAR",
+    "printedPages": "36",
+    "directorySheet": "110-L",
+    "expectedColors": 6,
+    "weight": "170"
+  },
+  {
+    "reference": "SBTSMAN",
+    "collection": "REGULAR/SUBLI",
+    "printedPages": "74-75",
+    "directorySheet": "110-L",
+    "expectedColors": 1,
+    "weight": "150"
+  },
+  {
+    "reference": "TSRA170",
+    "collection": "REGULAR",
+    "printedPages": "30-31",
+    "directorySheet": "110-L",
+    "expectedColors": 12,
+    "weight": "170"
+  },
+  {
+    "reference": "TSUASTRPM",
+    "collection": "URBAN",
+    "printedPages": "185",
+    "directorySheet": "110-L",
+    "expectedColors": 11,
+    "weight": "150-155"
+  },
+  {
+    "reference": "TSUAOVER240",
+    "collection": "URBAN",
+    "printedPages": "174-175",
+    "directorySheet": "110-L",
+    "expectedColors": 7,
+    "weight": "240"
+  },
+  {
+    "reference": "TSRLCMF",
+    "collection": "REGULAR",
+    "printedPages": "22-23",
+    "directorySheet": "110-L",
+    "expectedColors": 40,
+    "weight": "145-150"
+  },
+  {
+    "reference": "CURVSSLUB",
+    "collection": "REGULAR/CURVES",
+    "printedPages": "72",
+    "directorySheet": "110-L",
+    "expectedColors": 2,
+    "weight": "120"
+  },
+  {
+    "reference": "TS150ST",
+    "collection": "REGULAR",
+    "printedPages": "24-25",
+    "directorySheet": "110-L",
+    "expectedColors": 25,
+    "weight": "150"
+  },
+  {
+    "reference": "TSRA170LS",
+    "collection": "REGULAR",
+    "printedPages": "37",
+    "directorySheet": "110-L",
+    "expectedColors": 10,
+    "weight": "170"
+  },
+  {
+    "reference": "TSUALBCH",
+    "collection": "URBAN",
+    "printedPages": "186",
+    "directorySheet": "110-L",
+    "expectedColors": 7,
+    "weight": "150-155"
+  },
+  {
+    "reference": "SPORTMAN",
+    "collection": "SPORT",
+    "printedPages": "196-197",
+    "directorySheet": "110-L",
+    "expectedColors": 17,
+    "weight": "130"
+  },
+  {
+    "reference": "TSRLCMFWLT",
+    "collection": "REGULAR",
+    "printedPages": "70-71",
+    "directorySheet": "110-L",
+    "expectedColors": 1,
+    "weight": "145"
+  },
+  {
+    "reference": "CURVS150",
+    "collection": "REGULAR/CURVES",
+    "printedPages": "73",
+    "directorySheet": "110-L",
+    "expectedColors": 9,
+    "weight": "145"
+  },
+  {
+    "reference": "CURVSPICO",
+    "collection": "REGULAR/CURVES",
+    "printedPages": "73",
+    "directorySheet": "110-R",
+    "expectedColors": 9,
+    "weight": "145"
+  },
+  {
+    "reference": "TSULTBG",
+    "collection": "URBAN",
+    "printedPages": "193",
+    "directorySheet": "110-R",
+    "expectedColors": null,
+    "weight": "140"
+  },
+  {
+    "reference": "TSULMALIA",
+    "collection": "URBAN",
+    "printedPages": "189",
+    "directorySheet": "110-R",
+    "expectedColors": 4,
+    "weight": "220"
+  },
+  {
+    "reference": "TSRBSUIT",
+    "collection": "REGULAR",
+    "printedPages": "50",
+    "directorySheet": "110-R",
+    "expectedColors": 5,
+    "weight": "170"
+  },
+  {
+    "reference": "TSRK150WLT",
+    "collection": "REGULAR",
+    "printedPages": "70-71",
+    "directorySheet": "110-R",
+    "expectedColors": 1,
+    "weight": "155"
+  },
+  {
+    "reference": "SPORTKID",
+    "collection": "SPORT",
+    "printedPages": "198",
+    "directorySheet": "110-R",
+    "expectedColors": 9,
+    "weight": "130"
+  },
+  {
+    "reference": "TSLSEA",
+    "collection": "URBAN",
+    "printedPages": "180",
+    "directorySheet": "110-R",
+    "expectedColors": 3,
+    "weight": "120"
+  },
+  {
+    "reference": "TSULSCL",
+    "collection": "URBAN",
+    "printedPages": "191",
+    "directorySheet": "110-R",
+    "expectedColors": 18,
+    "weight": "140"
+  },
+  {
+    "reference": "SPORTLADY",
+    "collection": "SPORT",
+    "printedPages": "199",
+    "directorySheet": "110-R",
+    "expectedColors": 14,
+    "weight": "130"
+  },
+  {
+    "reference": "TSRBBODYLS",
+    "collection": "REGULAR",
+    "printedPages": "50",
+    "directorySheet": "110-R",
+    "expectedColors": 5,
+    "weight": "170"
+  },
+  {
+    "reference": "TSUKSEA",
+    "collection": "REGULAR",
+    "printedPages": "62",
+    "directorySheet": "110-R",
+    "expectedColors": 1,
+    "weight": "155"
+  },
+  {
+    "reference": "TSULSLB",
+    "collection": "URBAN",
+    "printedPages": "180",
+    "directorySheet": "110-R",
+    "expectedColors": 7,
+    "weight": "120"
+  },
+  {
+    "reference": "TSRLCMFP",
+    "collection": "URBAN",
+    "printedPages": "179",
+    "directorySheet": "110-R",
+    "expectedColors": 22,
+    "weight": "145"
+  },
+  {
+    "reference": "SPORTARBL",
+    "collection": "SPORT",
+    "printedPages": "200",
+    "directorySheet": "110-R",
+    "expectedColors": 6,
+    "weight": "130"
+  },
+  {
+    "reference": "SBTSKID",
+    "collection": "REGULAR/SUBLI",
+    "printedPages": "74-75",
+    "directorySheet": "110-R",
+    "expectedColors": 1,
+    "weight": "150"
+  },
+  {
+    "reference": "TSUKBSB",
+    "collection": "REGULAR",
+    "printedPages": "62",
+    "directorySheet": "110-R",
+    "expectedColors": 5,
+    "weight": "155"
+  },
+  {
+    "reference": "TSULIBIZA",
+    "collection": "URBAN",
+    "printedPages": "188",
+    "directorySheet": "110-R",
+    "expectedColors": 5,
+    "weight": "120"
+  },
+  {
+    "reference": "TSULSAONA",
+    "collection": "URBAN",
+    "printedPages": "193",
+    "directorySheet": "110-R",
+    "expectedColors": 2,
+    "weight": "145"
+  },
+  {
+    "reference": "TSRBODY150",
+    "collection": "REGULAR",
+    "printedPages": "51",
+    "directorySheet": "110-R",
+    "expectedColors": 11,
+    "weight": "145"
+  },
+  {
+    "reference": "TSRK150",
+    "collection": "REGULAR",
+    "printedPages": "54-55",
+    "directorySheet": "110-R",
+    "expectedColors": 50,
+    "weight": "155"
+  },
+  {
+    "reference": "TSRK150LS",
+    "collection": "REGULAR",
+    "printedPages": "58-59",
+    "directorySheet": "110-R",
+    "expectedColors": 12,
+    "weight": "155-160"
+  },
+  {
+    "reference": "TSULMLDV",
+    "collection": "URBAN",
+    "printedPages": "192",
+    "directorySheet": "110-R",
+    "expectedColors": 11,
+    "weight": "120"
+  },
+  {
+    "reference": "TSULVCTR",
+    "collection": "URBAN",
+    "printedPages": "190",
+    "directorySheet": "110-R",
+    "expectedColors": 10,
+    "weight": "160"
+  },
+  {
+    "reference": "TSRB150",
+    "collection": "REGULAR",
+    "printedPages": "52-53",
+    "directorySheet": "110-R",
+    "expectedColors": 21,
+    "weight": "155"
+  },
+  {
+    "reference": "TSLKTVL",
+    "collection": "REGULAR",
+    "printedPages": "63",
+    "directorySheet": "110-R",
+    "expectedColors": 13,
+    "weight": "170"
+  },
+  {
+    "reference": "TSRKSTRAP",
+    "collection": "REGULAR",
+    "printedPages": "60",
+    "directorySheet": "110-R",
+    "expectedColors": 6,
+    "weight": "170"
+  },
+  {
+    "reference": "TSULPAPLS",
+    "collection": "URBAN",
+    "printedPages": "192",
+    "directorySheet": "110-R",
+    "expectedColors": 6,
+    "weight": "120"
+  },
+  {
+    "reference": "TSULARB",
+    "collection": "URBAN",
+    "printedPages": "187",
+    "directorySheet": "110-R",
+    "expectedColors": 13,
+    "weight": "200"
+  },
+  {
+    "reference": "TSRBBODY",
+    "collection": "REGULAR",
+    "printedPages": "48-49",
+    "directorySheet": "110-R",
+    "expectedColors": 15,
+    "weight": "170"
+  },
+  {
+    "reference": "TSLKTNG",
+    "collection": "REGULAR",
+    "printedPages": "61",
+    "directorySheet": "110-R",
+    "expectedColors": 13,
+    "weight": "155"
+  },
+  {
+    "reference": "TSRK190",
+    "collection": "REGULAR",
+    "printedPages": "56-57",
+    "directorySheet": "110-R",
+    "expectedColors": 25,
+    "weight": "180-185"
+  },
+  {
+    "reference": "JTSWCR",
+    "collection": "JT",
+    "printedPages": "14",
+    "directorySheet": "111-L",
+    "expectedColors": 21,
+    "weight": "260-265"
+  },
+  {
+    "reference": "SWCRPEACH",
+    "collection": "WINTER",
+    "printedPages": "145",
+    "directorySheet": "111-L",
+    "expectedColors": 5,
+    "weight": "260"
+  },
+  {
+    "reference": "SWRAFUZIP",
+    "collection": "WINTER",
+    "printedPages": "122",
+    "directorySheet": "111-L",
+    "expectedColors": 11,
+    "weight": "290"
+  },
+  {
+    "reference": "SWHOODECO",
+    "collection": "WINTER",
+    "printedPages": "154",
+    "directorySheet": "111-L",
+    "expectedColors": 8,
+    "weight": "275"
+  },
+  {
+    "reference": "JTSWKNG",
+    "collection": "JT",
+    "printedPages": "15",
+    "directorySheet": "111-L",
+    "expectedColors": 21,
+    "weight": "260-265"
+  },
+  {
+    "reference": "SWKNGPEACH",
+    "collection": "WINTER",
+    "printedPages": "145",
+    "directorySheet": "111-L",
+    "expectedColors": 5,
+    "weight": "260"
+  },
+  {
+    "reference": "SWUAHOOD",
+    "collection": "WINTER",
+    "printedPages": "123",
+    "directorySheet": "111-L",
+    "expectedColors": 20,
+    "weight": "290"
+  },
+  {
+    "reference": "SWCRL240",
+    "collection": "WINTER",
+    "printedPages": "136",
+    "directorySheet": "111-L",
+    "expectedColors": 5,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWCR240",
+    "collection": "WINTER",
+    "printedPages": "137",
+    "directorySheet": "111-L",
+    "expectedColors": 9,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWRA290",
+    "collection": "WINTER",
+    "printedPages": "114-115",
+    "directorySheet": "111-L",
+    "expectedColors": 80,
+    "weight": "290"
+  },
+  {
+    "reference": "SWKNG320",
+    "collection": "WINTER",
+    "printedPages": "130-131",
+    "directorySheet": "111-L",
+    "expectedColors": 15,
+    "weight": "320"
+  },
+  {
+    "reference": "SWULKNG240",
+    "collection": "WINTER",
+    "printedPages": "138",
+    "directorySheet": "111-L",
+    "expectedColors": 5,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWKNG240",
+    "collection": "WINTER",
+    "printedPages": "139",
+    "directorySheet": "111-L",
+    "expectedColors": 9,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWRARGL",
+    "collection": "WINTER",
+    "printedPages": "120",
+    "directorySheet": "111-L",
+    "expectedColors": 10,
+    "weight": "290"
+  },
+  {
+    "reference": "SWKNGOVER",
+    "collection": "WINTER",
+    "printedPages": "132-133",
+    "directorySheet": "111-L",
+    "expectedColors": 12,
+    "weight": "320"
+  },
+  {
+    "reference": "SWULHOOD240",
+    "collection": "WINTER",
+    "printedPages": "140",
+    "directorySheet": "111-L",
+    "expectedColors": 5,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWUAHOOD240",
+    "collection": "WINTER",
+    "printedPages": "141",
+    "directorySheet": "111-L",
+    "expectedColors": 9,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWRAKNG",
+    "collection": "WINTER",
+    "printedPages": "116-117",
+    "directorySheet": "111-L",
+    "expectedColors": 80,
+    "weight": "290"
+  },
+  {
+    "reference": "SWRAECO",
+    "collection": "WINTER",
+    "printedPages": "150-151",
+    "directorySheet": "111-L",
+    "expectedColors": 8,
+    "weight": "275"
+  },
+  {
+    "reference": "SWULKNG",
+    "collection": "WINTER",
+    "printedPages": "118",
+    "directorySheet": "111-L",
+    "expectedColors": 19,
+    "weight": "290"
+  },
+  {
+    "reference": "SWFUZIP240",
+    "collection": "WINTER",
+    "printedPages": "142",
+    "directorySheet": "111-L",
+    "expectedColors": 6,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWRAZIP",
+    "collection": "WINTER",
+    "printedPages": "122",
+    "directorySheet": "111-L",
+    "expectedColors": 11,
+    "weight": "290"
+  },
+  {
+    "reference": "SWKNGECO",
+    "collection": "WINTER",
+    "printedPages": "152-153",
+    "directorySheet": "111-L",
+    "expectedColors": 8,
+    "weight": "275"
+  },
+  {
+    "reference": "SWULCROP",
+    "collection": "WINTER",
+    "printedPages": "129",
+    "directorySheet": "111-L",
+    "expectedColors": 4,
+    "weight": "290"
+  },
+  {
+    "reference": "SWRBSUIT",
+    "collection": "WINTER",
+    "printedPages": "146",
+    "directorySheet": "111-R",
+    "expectedColors": 5,
+    "weight": "260"
+  },
+  {
+    "reference": "SWRKECO",
+    "collection": "WINTER",
+    "printedPages": "150-151",
+    "directorySheet": "111-R",
+    "expectedColors": 8,
+    "weight": "275"
+  },
+  {
+    "reference": "SWRBHOOD",
+    "collection": "WINTER",
+    "printedPages": "147",
+    "directorySheet": "111-R",
+    "expectedColors": 6,
+    "weight": "260"
+  },
+  {
+    "reference": "SWKNGKECO",
+    "collection": "WINTER",
+    "printedPages": "152-153",
+    "directorySheet": "111-R",
+    "expectedColors": 8,
+    "weight": "275"
+  },
+  {
+    "reference": "SWRK240",
+    "collection": "WINTER",
+    "printedPages": "136",
+    "directorySheet": "111-R",
+    "expectedColors": 4,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWRK290",
+    "collection": "WINTER",
+    "printedPages": "118",
+    "directorySheet": "111-R",
+    "expectedColors": 21,
+    "weight": "290"
+  },
+  {
+    "reference": "SWRKKNG240",
+    "collection": "WINTER",
+    "printedPages": "138",
+    "directorySheet": "111-R",
+    "expectedColors": 4,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWRKKNG",
+    "collection": "WINTER",
+    "printedPages": "119",
+    "directorySheet": "111-R",
+    "expectedColors": 23,
+    "weight": "290"
+  },
+  {
+    "reference": "SWRKHOOD240",
+    "collection": "WINTER",
+    "printedPages": "140",
+    "directorySheet": "111-R",
+    "expectedColors": 3,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWRKHOOD",
+    "collection": "WINTER",
+    "printedPages": "124-125",
+    "directorySheet": "111-R",
+    "expectedColors": 12,
+    "weight": "290"
+  },
+  {
+    "reference": "SWRKFUZIP240",
+    "collection": "WINTER",
+    "printedPages": "142",
+    "directorySheet": "111-R",
+    "expectedColors": 3,
+    "weight": "235-240"
+  },
+  {
+    "reference": "SWRKFUZIP",
+    "collection": "WINTER",
+    "printedPages": "124-125",
+    "directorySheet": "111-R",
+    "expectedColors": 8,
+    "weight": "290"
+  },
+  {
+    "reference": "JTPOLO",
+    "collection": "JT",
+    "printedPages": "12",
+    "directorySheet": "112-L",
+    "expectedColors": 10,
+    "weight": null
+  },
+  {
+    "reference": "PORA210WK",
+    "collection": "WORKWEAR",
+    "printedPages": "84-85",
+    "directorySheet": "112-L",
+    "expectedColors": 10,
+    "weight": "210"
+  },
+  {
+    "reference": "CURVSPOLO",
+    "collection": "REGULAR",
+    "printedPages": "72",
+    "directorySheet": "112-L",
+    "expectedColors": 7,
+    "weight": "200"
+  },
+  {
+    "reference": "PKID210SCH",
+    "collection": "REGULAR",
+    "printedPages": "66-67",
+    "directorySheet": "112-L",
+    "expectedColors": 6,
+    "weight": "210"
+  },
+  {
+    "reference": "PORA210",
+    "collection": "REGULAR",
+    "printedPages": "38-39",
+    "directorySheet": "112-L",
+    "expectedColors": 44,
+    "weight": "210"
+  },
+  {
+    "reference": "SPORTPIQUE",
+    "collection": "SPORT",
+    "printedPages": "202-203",
+    "directorySheet": "112-L",
+    "expectedColors": 8,
+    "weight": "150-160"
+  },
+  {
+    "reference": "POPL200WK",
+    "collection": "WORKWEAR",
+    "printedPages": "84-85",
+    "directorySheet": "112-L",
+    "expectedColors": 10,
+    "weight": "210"
+  },
+  {
+    "reference": "PKID210LS",
+    "collection": "REGULAR",
+    "printedPages": "66",
+    "directorySheet": "112-L",
+    "expectedColors": 9,
+    "weight": "210"
+  },
+  {
+    "reference": "PORA210(WASH)",
+    "collection": "REGULAR",
+    "printedPages": "40",
+    "directorySheet": "112-L",
+    "expectedColors": 5,
+    "weight": "210"
+  },
+  {
+    "reference": "SPHEAVYMEN",
+    "collection": "SPORT",
+    "printedPages": "205",
+    "directorySheet": "112-L",
+    "expectedColors": 7,
+    "weight": "200-210"
+  },
+  {
+    "reference": "SPORTPQLADY",
+    "collection": "SPORT",
+    "printedPages": "202-203",
+    "directorySheet": "112-L",
+    "expectedColors": 7,
+    "weight": "150-160"
+  },
+  {
+    "reference": "SPORTPQKID",
+    "collection": "SPORT",
+    "printedPages": "202-203",
+    "directorySheet": "112-L",
+    "expectedColors": 4,
+    "weight": "150-160"
+  },
+  {
+    "reference": "PORA210(CONTRAST)",
+    "collection": "REGULAR",
+    "printedPages": "41",
+    "directorySheet": "112-L",
+    "expectedColors": 14,
+    "weight": "210"
+  },
+  {
+    "reference": "POPL200",
+    "collection": "REGULAR",
+    "printedPages": "44-45",
+    "directorySheet": "112-L",
+    "expectedColors": 34,
+    "weight": "200"
+  },
+  {
+    "reference": "SPHEAVYLDY",
+    "collection": "SPORT",
+    "printedPages": "204",
+    "directorySheet": "112-L",
+    "expectedColors": 7,
+    "weight": "200-210"
+  },
+  {
+    "reference": "PORA210LS",
+    "collection": "REGULAR",
+    "printedPages": "47",
+    "directorySheet": "112-L",
+    "expectedColors": 17,
+    "weight": "210"
+  },
+  {
+    "reference": "POPL200(CONTRAST)",
+    "collection": "REGULAR",
+    "printedPages": "44",
+    "directorySheet": "112-L",
+    "expectedColors": 4,
+    "weight": "200"
+  },
+  {
+    "reference": "PKID210",
+    "collection": "REGULAR",
+    "printedPages": "64-65",
+    "directorySheet": "112-L",
+    "expectedColors": 23,
+    "weight": "210"
+  },
+  {
+    "reference": "PORA240",
+    "collection": "REGULAR",
+    "printedPages": "42-43",
+    "directorySheet": "112-L",
+    "expectedColors": 15,
+    "weight": "240"
+  },
+  {
+    "reference": "POPL200LS",
+    "collection": "REGULAR",
+    "printedPages": "46",
+    "directorySheet": "112-L",
+    "expectedColors": 10,
+    "weight": "200"
+  },
+  {
+    "reference": "PKID210(CONTRAST)",
+    "collection": "REGULAR",
+    "printedPages": "64",
+    "directorySheet": "112-L",
+    "expectedColors": 6,
+    "weight": "210"
+  },
+  {
+    "reference": "WKOPORTO",
+    "collection": "WORKWEAR",
+    "printedPages": "80-81",
+    "directorySheet": "112-R",
+    "expectedColors": 3,
+    "weight": "170"
+  },
+  {
+    "reference": "SHAOXFSS",
+    "collection": "WORKWEAR",
+    "printedPages": "90-91",
+    "directorySheet": "112-R",
+    "expectedColors": 4,
+    "weight": null
+  },
+  {
+    "reference": "SHAMONACO",
+    "collection": "WORKWEAR",
+    "printedPages": "95",
+    "directorySheet": "112-R",
+    "expectedColors": 1,
+    "weight": null
+  },
+  {
+    "reference": "SHLPEKIN",
+    "collection": "WORKWEAR",
+    "printedPages": "88",
+    "directorySheet": "112-R",
+    "expectedColors": 2,
+    "weight": null
+  },
+  {
+    "reference": "SHLTEXAS",
+    "collection": "WORKWEAR",
+    "printedPages": "96",
+    "directorySheet": "112-R",
+    "expectedColors": 1,
+    "weight": null
+  },
+  {
+    "reference": "SHAOSLO",
+    "collection": "WORKWEAR",
+    "printedPages": "86-87",
+    "directorySheet": "112-R",
+    "expectedColors": 2,
+    "weight": null
+  },
+  {
+    "reference": "SHAPOP",
+    "collection": "WORKWEAR",
+    "printedPages": "92-93",
+    "directorySheet": "112-R",
+    "expectedColors": 7,
+    "weight": null
+  },
+  {
+    "reference": "SHATEXAS",
+    "collection": "WORKWEAR",
+    "printedPages": "96-97",
+    "directorySheet": "112-R",
+    "expectedColors": 1,
+    "weight": null
+  },
+  {
+    "reference": "SHLPEKINSS",
+    "collection": "WORKWEAR",
+    "printedPages": "88-89",
+    "directorySheet": "112-R",
+    "expectedColors": 2,
+    "weight": null
+  },
+  {
+    "reference": "SHAOSLOSS",
+    "collection": "WORKWEAR",
+    "printedPages": "86-87",
+    "directorySheet": "112-R",
+    "expectedColors": 2,
+    "weight": null
+  },
+  {
+    "reference": "SHAPOPSS",
+    "collection": "WORKWEAR",
+    "printedPages": "92",
+    "directorySheet": "112-R",
+    "expectedColors": 6,
+    "weight": null
+  },
+  {
+    "reference": "SHATULUM",
+    "collection": "WORKWEAR",
+    "printedPages": "98",
+    "directorySheet": "112-R",
+    "expectedColors": 5,
+    "weight": null
+  },
+  {
+    "reference": "SHLOXF",
+    "collection": "WORKWEAR",
+    "printedPages": "90-91",
+    "directorySheet": "112-R",
+    "expectedColors": 8,
+    "weight": null
+  },
+  {
+    "reference": "SHAPEKIN",
+    "collection": "WORKWEAR",
+    "printedPages": "88-89",
+    "directorySheet": "112-R",
+    "expectedColors": 2,
+    "weight": null
+  },
+  {
+    "reference": "SHAMILAN",
+    "collection": "WORKWEAR",
+    "printedPages": "94",
+    "directorySheet": "112-R",
+    "expectedColors": 1,
+    "weight": null
+  },
+  {
+    "reference": "SHAMAHON",
+    "collection": "WORKWEAR",
+    "printedPages": "99",
+    "directorySheet": "112-R",
+    "expectedColors": 5,
+    "weight": null
+  },
+  {
+    "reference": "SHLOXFSS",
+    "collection": "WORKWEAR",
+    "printedPages": "90",
+    "directorySheet": "112-R",
+    "expectedColors": 4,
+    "weight": null
+  },
+  {
+    "reference": "SHAPEKINSS",
+    "collection": "WORKWEAR",
+    "printedPages": "88",
+    "directorySheet": "112-R",
+    "expectedColors": 2,
+    "weight": null
+  },
+  {
+    "reference": "SHABERLIN",
+    "collection": "WORKWEAR",
+    "printedPages": "94",
+    "directorySheet": "112-R",
+    "expectedColors": 1,
+    "weight": null
+  },
+  {
+    "reference": "SHLOSLO",
+    "collection": "WORKWEAR",
+    "printedPages": "86-87",
+    "directorySheet": "112-R",
+    "expectedColors": 2,
+    "weight": null
+  },
+  {
+    "reference": "SHLPOP",
+    "collection": "WORKWEAR",
+    "printedPages": "92",
+    "directorySheet": "112-R",
+    "expectedColors": 7,
+    "weight": null
+  },
+  {
+    "reference": "SHAOXF",
+    "collection": "WORKWEAR",
+    "printedPages": "90",
+    "directorySheet": "112-R",
+    "expectedColors": 8,
+    "weight": null
+  },
+  {
+    "reference": "SHALONDON",
+    "collection": "WORKWEAR",
+    "printedPages": "95",
+    "directorySheet": "112-R",
+    "expectedColors": 1,
+    "weight": null
+  },
+  {
+    "reference": "SHLOSLOSS",
+    "collection": "WORKWEAR",
+    "printedPages": "86",
+    "directorySheet": "112-R",
+    "expectedColors": 2,
+    "weight": null
+  },
+  {
+    "reference": "SHLPOPSS",
+    "collection": "WORKWEAR",
+    "printedPages": "92-93",
+    "directorySheet": "112-R",
+    "expectedColors": 6,
+    "weight": null
+  },
+  {
+    "reference": "WKLISBON",
+    "collection": "WORKWEAR",
+    "printedPages": "80-81",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "170"
+  },
+  {
+    "reference": "WKDUBLIN",
+    "collection": "WORKWEAR",
+    "printedPages": "106-107",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "280"
+  },
+  {
+    "reference": "WKTOKYOL",
+    "collection": "WORKWEAR",
+    "printedPages": "104-105",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "280"
+  },
+  {
+    "reference": "WKTOKYOK",
+    "collection": "REGULAR",
+    "printedPages": "68-69",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "280"
+  },
+  {
+    "reference": "UNBOXER",
+    "collection": "UNDERWEAR",
+    "printedPages": "212-213",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "160"
+  },
+  {
+    "reference": "SWPANTS240",
+    "collection": "WINTER",
+    "printedPages": "143",
+    "directorySheet": "113-L",
+    "expectedColors": null,
+    "weight": "235-240"
+  },
+  {
+    "reference": "WKCHESTER",
+    "collection": "WORKWEAR",
+    "printedPages": "109",
+    "directorySheet": "113-L",
+    "expectedColors": 4,
+    "weight": "280"
+  },
+  {
+    "reference": "WKDUBLINL",
+    "collection": "WORKWEAR",
+    "printedPages": "106-107",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "280"
+  },
+  {
+    "reference": "SWPANTSK240",
+    "collection": "WINTER",
+    "printedPages": "144",
+    "directorySheet": "113-L",
+    "expectedColors": 5,
+    "weight": "235-240"
+  },
+  {
+    "reference": "UNMIDWAY",
+    "collection": "UNDERWEAR",
+    "printedPages": "212",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "160"
+  },
+  {
+    "reference": "SWPANTSCFF",
+    "collection": "WINTER",
+    "printedPages": "128",
+    "directorySheet": "113-L",
+    "expectedColors": null,
+    "weight": "290"
+  },
+  {
+    "reference": "SWPANTSM",
+    "collection": "WINTER",
+    "printedPages": "126",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "290"
+  },
+  {
+    "reference": "WKLARISA",
+    "collection": "WORKWEAR",
+    "printedPages": "108",
+    "directorySheet": "113-L",
+    "expectedColors": 4,
+    "weight": "280"
+  },
+  {
+    "reference": "SWPANTSK",
+    "collection": "WINTER",
+    "printedPages": "127",
+    "directorySheet": "113-L",
+    "expectedColors": 7,
+    "weight": "290"
+  },
+  {
+    "reference": "UNSLIP",
+    "collection": "UNDERWEAR",
+    "printedPages": "212",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "160"
+  },
+  {
+    "reference": "WKDUBAI",
+    "collection": "WORKWEAR",
+    "printedPages": "102-103",
+    "directorySheet": "113-L",
+    "expectedColors": null,
+    "weight": "250"
+  },
+  {
+    "reference": "SWSHORTSM",
+    "collection": "WINTER",
+    "printedPages": "126",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "290"
+  },
+  {
+    "reference": "SWPANTSL",
+    "collection": "WINTER",
+    "printedPages": "127",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "290"
+  },
+  {
+    "reference": "WKBOSTON",
+    "collection": "WORKWEAR",
+    "printedPages": "110-111",
+    "directorySheet": "113-L",
+    "expectedColors": 6,
+    "weight": "300"
+  },
+  {
+    "reference": "UNBRIEFS",
+    "collection": "UNDERWEAR",
+    "printedPages": "211",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "160"
+  },
+  {
+    "reference": "WKARIZONA",
+    "collection": "WORKWEAR",
+    "printedPages": "100-101",
+    "directorySheet": "113-L",
+    "expectedColors": null,
+    "weight": "280"
+  },
+  {
+    "reference": "WKDUBAIL",
+    "collection": "WORKWEAR",
+    "printedPages": "102-103",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "250"
+  },
+  {
+    "reference": "SPLEGGINSL",
+    "collection": "SPORT",
+    "printedPages": "207",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "180"
+  },
+  {
+    "reference": "WKBOSTONL",
+    "collection": "WORKWEAR",
+    "printedPages": "110-111",
+    "directorySheet": "113-L",
+    "expectedColors": 6,
+    "weight": "300"
+  },
+  {
+    "reference": "UNTHONG",
+    "collection": "UNDERWEAR",
+    "printedPages": "211",
+    "directorySheet": "113-L",
+    "expectedColors": 3,
+    "weight": "160"
+  },
+  {
+    "reference": "WKTOKYO",
+    "collection": "WORKWEAR",
+    "printedPages": "104-105",
+    "directorySheet": "113-L",
+    "expectedColors": null,
+    "weight": "280"
+  },
+  {
+    "reference": "WKARIZONAL",
+    "collection": "WORKWEAR",
+    "printedPages": "100-101",
+    "directorySheet": "113-L",
+    "expectedColors": null,
+    "weight": "280"
+  },
+  {
+    "reference": "SWPANTSB",
+    "collection": "WINTER",
+    "printedPages": "147",
+    "directorySheet": "113-L",
+    "expectedColors": 6,
+    "weight": "260"
+  },
+  {
+    "reference": "WKBOSTONK",
+    "collection": "REGULAR",
+    "printedPages": "69",
+    "directorySheet": "113-L",
+    "expectedColors": 4,
+    "weight": "300"
+  },
+  {
+    "reference": "MICFLEMAN",
+    "collection": "WINTER",
+    "printedPages": "159",
+    "directorySheet": "113-R",
+    "expectedColors": 5,
+    "weight": "140"
+  },
+  {
+    "reference": "JTSOFTJACK",
+    "collection": "JT",
+    "printedPages": "16",
+    "directorySheet": "113-R",
+    "expectedColors": 10,
+    "weight": "270"
+  },
+  {
+    "reference": "SOFTVEST",
+    "collection": "WINTER",
+    "printedPages": "164",
+    "directorySheet": "113-R",
+    "expectedColors": 7,
+    "weight": "300"
+  },
+  {
+    "reference": "WKPARIS",
+    "collection": "WORKWEAR",
+    "printedPages": "79",
+    "directorySheet": "113-R",
+    "expectedColors": 10,
+    "weight": "180"
+  },
+  {
+    "reference": "WKROME",
+    "collection": "WORKWEAR",
+    "printedPages": "82-83",
+    "directorySheet": "113-R",
+    "expectedColors": 3,
+    "weight": "190"
+  },
+  {
+    "reference": "FLRA300",
+    "collection": "WINTER",
+    "printedPages": "156-157",
+    "directorySheet": "113-R",
+    "expectedColors": 18,
+    "weight": "300"
+  },
+  {
+    "reference": "JTSOFTVEST",
+    "collection": "JT",
+    "printedPages": "16-17",
+    "directorySheet": "113-R",
+    "expectedColors": 10,
+    "weight": "270"
+  },
+  {
+    "reference": "SOFTHOOD",
+    "collection": "WINTER",
+    "printedPages": "165",
+    "directorySheet": "113-R",
+    "expectedColors": 3,
+    "weight": "300"
+  },
+  {
+    "reference": "WKVENICE",
+    "collection": "WORKWEAR",
+    "printedPages": "78",
+    "directorySheet": "113-R",
+    "expectedColors": 3,
+    "weight": "180"
+  },
+  {
+    "reference": "WKROMEL",
+    "collection": "WORKWEAR",
+    "printedPages": "82-83",
+    "directorySheet": "113-R",
+    "expectedColors": 3,
+    "weight": "190"
+  },
+  {
+    "reference": "FLRA340",
+    "collection": "WINTER",
+    "printedPages": "160-161",
+    "directorySheet": "113-R",
+    "expectedColors": 8,
+    "weight": "340"
+  },
+  {
+    "reference": "RAINCOAT",
+    "collection": "WINTER",
+    "printedPages": "169",
+    "directorySheet": "113-R",
+    "expectedColors": 6,
+    "weight": "115"
+  },
+  {
+    "reference": "SOFTJACKL",
+    "collection": "WINTER",
+    "printedPages": "162-163",
+    "directorySheet": "113-R",
+    "expectedColors": 7,
+    "weight": "300"
+  },
+  {
+    "reference": "WKVIENNA",
+    "collection": "WORKWEAR",
+    "printedPages": "78",
+    "directorySheet": "113-R",
+    "expectedColors": 7,
+    "weight": "180"
+  },
+  {
+    "reference": "MICFLELADY",
+    "collection": "WINTER",
+    "printedPages": "158",
+    "directorySheet": "113-R",
+    "expectedColors": 6,
+    "weight": "140"
+  },
+  {
+    "reference": "PADJACKET",
+    "collection": "WINTER",
+    "printedPages": "166-167",
+    "directorySheet": "113-R",
+    "expectedColors": 5,
+    "weight": "280"
+  },
+  {
+    "reference": "SOFTHOODL",
+    "collection": "WINTER",
+    "printedPages": "164",
+    "directorySheet": "113-R",
+    "expectedColors": 3,
+    "weight": "300"
+  },
+  {
+    "reference": "WKPARISK",
+    "collection": "REGULAR",
+    "printedPages": "68-69",
+    "directorySheet": "113-R",
+    "expectedColors": 6,
+    "weight": "180"
+  },
+  {
+    "reference": "FLRL300",
+    "collection": "WINTER",
+    "printedPages": "156-157",
+    "directorySheet": "113-R",
+    "expectedColors": 18,
+    "weight": "300"
+  },
+  {
+    "reference": "PADVEST",
+    "collection": "WINTER",
+    "printedPages": "168",
+    "directorySheet": "113-R",
+    "expectedColors": 5,
+    "weight": "280"
+  },
+  {
+    "reference": "SOFTJACKID",
+    "collection": "WINTER",
+    "printedPages": "162-163",
+    "directorySheet": "113-R",
+    "expectedColors": 6,
+    "weight": "300"
+  },
+  {
+    "reference": "FLRK300",
+    "collection": "WINTER",
+    "printedPages": "156-157",
+    "directorySheet": "113-R",
+    "expectedColors": 9,
+    "weight": "300"
+  },
+  {
+    "reference": "SOFTJACK",
+    "collection": "WINTER",
+    "printedPages": "162-163",
+    "directorySheet": "113-R",
+    "expectedColors": 7,
+    "weight": "300"
+  }
+]
