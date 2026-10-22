@@ -11,5 +11,6 @@ defineProps<{ product: Product; priority?: boolean }>();
     <div class="product-card-top"><span class="eyebrow muted">{{ product.collection }} / {{ product.audience }}</span><span class="color-dots" aria-hidden="true"><i v-for="color in product.colors.slice(0,4)" :key="color.code" :style="{ background: color.hex, backgroundImage: color.swatch ? 'url(' + color.swatch + ')' : undefined, backgroundSize: 'cover' }" /><small v-if="product.colors.length > 4">+{{ product.colors.length-4 }}</small></span></div>
     <NuxtLink :to="`/catalogo/${product.slug}`" class="product-card-title">{{ product.name }}</NuxtLink>
     <p class="product-card-meta">{{ product.sizes[0] }}–{{ product.sizes.at(-1) }} <span>·</span> Precio bajo presupuesto</p>
+    <div class="card-actions"><NuxtLink :to="{path:'/hacer-pedido',query:{ref:product.reference}}">Elegir <AppIcon name="Plus" :size="14"/></NuxtLink><CompareButton :reference="product.reference"/></div>
   </article>
 </template>

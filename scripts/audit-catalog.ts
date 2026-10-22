@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { resolve,sep } from 'node:path';
 import { z } from 'zod';
 import type { Product } from '@ellas/shared';
+import {technicalFacts,technicalColorFacts,type TechnicalFacts} from '@ellas/shared';
 
 const color=z.object({code:z.string().min(1),name:z.string().min(1),hex:z.string().regex(/^#[a-f0-9]{6}$/i),swatch:z.string().startsWith('/catalog/swatches/'),sizes:z.array(z.string().min(1)).min(1)}).strict();
 const product=z.object({reference:z.string().regex(/^[A-Z0-9]+$/),slug:z.string().regex(/^[a-z0-9]+$/),name:z.string().min(2),description:z.string().min(5),category:z.string().min(1),collection:z.string().min(1),audience:z.string().min(1),composition:z.string().min(1),compositionNotes:z.array(z.string()),weight:z.string().nullable(),colors:z.array(color).min(1),sizes:z.array(z.string()).min(1),measurements:z.array(z.object({size:z.string(),values:z.record(z.string(),z.string())}).strict()),image:z.string().startsWith('/catalog/'),imageSmall:z.string().startsWith('/catalog/'),imageWidth:z.number().positive().int(),imageHeight:z.number().positive().int(),sourceImages:z.array(z.string().startsWith('/catalog/sources/')).min(1),source:z.object({pdf:z.literal('jhktshirt_catalogue_es.pdf'),digitalPages:z.array(z.number().int().min(2).max(114)).min(1),printedPages:z.string().min(1),directorySheets:z.array(z.string()).min(1),supplierUrl:z.url(),reviewed:z.literal(true),reviewNotes:z.array(z.string())}).strict(),search:z.string().min(1)}).strict();
@@ -13,6 +14,7 @@ const canonicalRef=(ref:string)=>ref.split('(')[0]!.replace('TSR1600RG','TSR160O
 const expected=new Set(inventory.map(i=>canonicalRef(i.reference)));
 const actual=new Set(products.map(p=>p.reference));
 const failures:string[]=[];
+const technical=JSON.parse(await readFile('data/catalog/technical.json','utf8')) as {derivationVersion:number;references:Record<string,{facts:TechnicalFacts;colors:ReturnType<typeof technicalColorFacts>;fingerprint:string}>};
 if(products.length!==actual.size)failures.push('Referencias duplicadas');
 for(const ref of expected)if(!actual.has(ref))failures.push(`Referencia ausente: ${ref}`);
 for(const ref of actual)if(!expected.has(ref))failures.push(`Referencia ajena al directorio: ${ref}`);
@@ -20,6 +22,9 @@ if(new Set(products.map(p=>p.slug)).size!==products.length)failures.push('Slugs 
 const publicRoot=resolve('apps/web/public');
 const inspected=new Set<string>();
 for(const p of products){
+  const facts=technicalFacts(p);const colors=technicalColorFacts(p);const reviewed=technical.references[p.reference];if(!reviewed||JSON.stringify(reviewed.facts)!==JSON.stringify(facts)||JSON.stringify(reviewed.colors)!==JSON.stringify(colors)||reviewed.fingerprint!==createHash('sha256').update(JSON.stringify({facts,colors})).digest('hex'))failures.push(`${p.reference}: atributos comparables modificados; revisar derivación y registro técnico`);
+  if(facts.weight&&(facts.weight.min<=0||facts.weight.max<facts.weight.min))failures.push(`${p.reference}: intervalo de gramaje inválido`);
+  if(facts.fibers.some(f=>f.percent<0||f.percent>100))failures.push(`${p.reference}: porcentaje de tejido inválido`);
   if(new Set(p.colors.map(c=>c.code)).size!==p.colors.length)failures.push(`${p.reference}: colores duplicados`);
   const union=new Set(p.colors.flatMap(c=>c.sizes));
   if(p.sizes.length!==new Set(p.sizes).size || p.sizes.length!==union.size || p.sizes.some(s=>!union.has(s)))failures.push(`${p.reference}: tallas incoherentes`);

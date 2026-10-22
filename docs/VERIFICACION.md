@@ -38,3 +38,4 @@ Las capturas del panel contienen únicamente datos ficticios introducidos durant
 El proveedor de correo sigue **sin configurar**, con cero intentos de envío. La cola y el panel muestran el estado real; no hay recepción acreditada. Para cerrarlo hay que configurar `EMAIL_FROM` y `EMAIL_API_KEY`, reiniciar la API y comprobar el buzón de desarrollo.
 
 El usuario ha solicitado hacer el push y desplegar manualmente. No hay URL pública verificada, comprobación de backups del alojamiento, medición pública de Core Web Vitals ni prueba en un teléfono físico. La revisión móvil usa el viewport del navegador. Docker/Railway/Vercel están preparados y documentados, pero sus despliegues no se han ejecutado en esta entrega. La hoja imprimible con QR se prepara después de recibir la URL estable.
+La ampliación posterior se documenta en [Verificación del Plan 2](PLAN-2-VERIFICACION.md). Este documento conserva la evidencia de la primera entrega.

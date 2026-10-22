@@ -1,6 +1,6 @@
 # Plan 2 — Hacer un pedido, comparar y recibir asesoramiento
 
-Fecha: 22 de octubre de 2026. Estado: propuesta para la siguiente implementación; todavía no ejecutada. Base: demo local entregada en `main`, commit `6cabd4f`.
+Fecha: 22 de octubre de 2026. Estado: implementado y verificado para entrega en `main` local, sin push ni despliegue. Base: demo local inicial, commit `6cabd4f`. Evidencia: [verificación](docs/PLAN-2-VERIFICACION.md); configuración y límites: [operación](docs/PLAN-2-OPERACION.md). El contenido siguiente conserva el alcance aprobado.
 
 ## 1. Resultado que buscamos
 

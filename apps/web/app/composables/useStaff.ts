@@ -1,4 +1,4 @@
-interface Staff { name: string; email: string; csrf: string }
+interface Staff { role:'admin'|'staff'; name: string; email: string; csrf: string }
 export function useStaff() {
   const staff = useState<Staff | null>('staff', () => null);
   const request = useRequestFetch();

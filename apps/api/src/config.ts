@@ -6,6 +6,8 @@ const envSchema = z.object({
   DEMO_MODE: z.enum(['true','false']).default('true'),
   ORDER_NOTIFICATION_TO: z.email().default('ugasdomingo@gmail.com'), EMAIL_REDIRECT_TO: z.email().default('ugasdomingo@gmail.com'),
   EMAIL_FROM: z.string().default(''), EMAIL_API_KEY: z.string().default(''),
+  OPENAI_API_KEY:z.string().default(''), OPENAI_MODEL:z.string().default('gpt-5.4-mini-2026-03-17'),OPENAI_VISION_MODEL:z.string().default('gpt-5.4-mini-2026-03-17'),
+  AI_DAILY_CALL_LIMIT:z.coerce.number().int().min(0).max(10000).default(200),AI_SESSION_DAILY_LIMIT:z.coerce.number().int().min(0).max(1000).default(20),AI_MAX_OUTPUT_TOKENS:z.coerce.number().int().min(128).max(4096).default(1800),AI_TIMEOUT_MS:z.coerce.number().int().min(1000).max(120000).default(30000),
   S3_ENDPOINT: z.string().default(''), S3_REGION: z.string().default('auto'), S3_BUCKET: z.string().default(''), S3_ACCESS_KEY_ID: z.string().default(''), S3_SECRET_ACCESS_KEY: z.string().default(''),
   DEMO_ADMIN_EMAIL: z.preprocess(value=>value===''?undefined:value,z.email().optional()), DEMO_ADMIN_PASSWORD: z.preprocess(value=>value===''?undefined:value,z.string().min(12).optional()),
 });

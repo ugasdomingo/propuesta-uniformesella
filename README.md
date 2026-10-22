@@ -4,7 +4,7 @@ Aplicación MEVN con TypeScript estricto: Nuxt 4 / Vue, API Express 5 y MongoDB.
 
 **Alcance actualizado por el usuario:** entrega en `main` local, sin push ni despliegues. El usuario publicará en Railway y Vercel y comunicará después la URL estable para la hoja con QR. No se ha modificado la tienda actual.
 
-**Siguiente fase propuesta, todavía sin implementar:** [Plan 2 — Hacer un pedido, comparador y asistentes](PLAN-2.md). Incluye un [prompt completo con `/goal`](PROMPT-GOAL-PLAN-2.md) para ejecutar la ampliación cuando se decida.
+**Plan 2 implementado:** constructor **Hacer un pedido**, comparador técnico de hasta tres prendas, ranking de pedidos reales y asistentes OpenAI público y administrativo, con lectura de texto y capturas. [Operación y configuración](docs/PLAN-2-OPERACION.md) · [Verificación y límites](docs/PLAN-2-VERIFICACION.md) · [Plan aprobado](PLAN-2.md).
 
 ## Arranque local
 
@@ -44,9 +44,14 @@ npm run dev:web
 - Web: <http://localhost:3000>
 - Panel: <http://localhost:3000/admin/solicitudes>
 - API: <http://127.0.0.1:4000/health>
+- Constructor: <http://localhost:3000/hacer-pedido>
+- Comparador: <http://localhost:3000/comparar>
+- Captura administrativa: <http://localhost:3000/admin/asistente>
 - Acceso privado: `.local/ACCESO.md`. La contraseña no se publica en el repositorio ni en la web.
 
 Usa `localhost`: debe coincidir con `APP_URL`. Si cambias puerto o dominio, actualiza también `NUXT_PUBLIC_APP_URL` y la URL de la API de Nuxt. En local Nuxt lee `apps/web/.env`; sus valores por defecto ya apuntan a Express local.
+
+Para el asistente, añade `OPENAI_API_KEY` al `.env` privado de la raíz. Nunca uses una variable pública para esta clave. La configuración, cuotas y migración repetible del histórico (`npm run db:migrate:plan2` y después `npm run db:migrate:plan2 -- --apply`) están en la guía de operación. El correo real sigue pendiente del despliegue.
 
 ## Catálogo
 

@@ -28,10 +28,15 @@ Configurar variables del servicio, sin guardarlas en Git:
 | `EMAIL_REDIRECT_TO` | `ugasdomingo@gmail.com` |
 | `EMAIL_FROM` | Remitente verificado de la cuenta Resend |
 | `EMAIL_API_KEY` | Clave privada de Resend |
+| `OPENAI_API_KEY` | Clave privada de OpenAI, solo en Express |
+| `OPENAI_MODEL` | `gpt-5.4-mini-2026-03-17` |
+| `OPENAI_VISION_MODEL` | `gpt-5.4-mini-2026-03-17` |
 | `DEMO_ADMIN_EMAIL` | Email elegido para el acceso del equipo |
 | `DEMO_ADMIN_PASSWORD` | Contraseña aleatoria de al menos 12 caracteres |
 
 Generar un dominio HTTPS de Railway para la API. La API comprueba origen y sesión; no habilitar CORS abierto para evitar el proxy. Mantener **una réplica** en esta demo, ya que los límites de intentos por IP se guardan en memoria del proceso.
+
+Las cuotas de OpenAI, privacidad, retención y migración del histórico se detallan en [Operación del Plan 2](PLAN-2-OPERACION.md). No copiar el `.env` local ni la base de comprobación al alojamiento. Para actualizar una base existente, revisar primero `npm run db:migrate:plan2` y aplicar con `-- --apply` una vez clasificado su histórico.
 
 Tras configurar la base, ejecutar desde una sesión del servicio con sus variables:
 

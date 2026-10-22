@@ -24,7 +24,7 @@ export async function processEmails() {
   running = true;
   try {
     // A crash between saving the request and creating jobs is recoverable.
-    const missing = await RequestModel.find({ demo: false }).select('_id').lean();
+    const missing = await RequestModel.find({ demo: false, notificationsAllowed:{$ne:false} }).select('_id').lean();
     for (const request of missing) await enqueueEmails(request._id);
     await EmailModel.updateMany({ status: 'unconfigured' }, { $set: { status: 'pending' } });
     await EmailModel.updateMany({ status: 'sending', leaseUntil: { $lt: new Date() }, attempts: { $gte: 5 } }, { $set: { status: 'failed', lastError: 'El proceso se interrumpió en el último intento. Revisar el proveedor antes de reintentar.' }, $unset: { leaseUntil: 1 } });
@@ -36,7 +36,7 @@ export async function processEmails() {
       if (!job) break;
       try {
         const request = await RequestModel.findById(job.requestId).lean();
-        if (!request || request.demo) throw new Error('La solicitud no admite envío');
+        if (!request || request.demo || request.notificationsAllowed===false) throw new Error('La solicitud no admite envío autorizado');
         const to = config.DEMO_MODE === 'true' ? config.EMAIL_REDIRECT_TO : job.role === 'business' ? config.ORDER_NOTIFICATION_TO : request.contact.email;
         const result = await fetch('https://api.resend.com/emails', { method: 'POST', signal: AbortSignal.timeout(20000), headers: {
           Authorization: `Bearer ${config.EMAIL_API_KEY}`, 'Content-Type': 'application/json', 'Idempotency-Key': `ellas-${job._id}`,

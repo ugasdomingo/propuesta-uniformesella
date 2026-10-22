@@ -19,7 +19,7 @@ export function sameOrigin(req: Request, res: Response, next: NextFunction) {
   if (req.get('origin') !== new URL(config.APP_URL).origin) return void res.status(403).json({ message: 'Origen de solicitud no permitido' });
   next();
 }
-export interface Auth { userId: string; name: string; email: string; csrf: string }
+export interface Auth { role:'admin'|'staff'; userId: string; name: string; email: string; csrf: string }
 declare global { namespace Express { interface Locals { auth: Auth } } }
 export async function requireAuth(req: Request, res: Response, next: NextFunction) {
   const cookie: unknown = req.cookies?.ellas_session;
@@ -29,7 +29,7 @@ export async function requireAuth(req: Request, res: Response, next: NextFunctio
   const user = await UserModel.findOne({ _id: session.userId, active: true }).lean();
   if (!user) return void res.status(401).json({ message: 'Acceso no disponible' });
   if (!['GET','HEAD'].includes(req.method) && req.get('x-csrf-token') !== session.csrf) return void res.status(403).json({ message: 'Recarga la página para continuar' });
-  res.locals.auth = { userId: String(user._id), name: user.name, email: user.email, csrf: session.csrf };
+  res.locals.auth = { userId: String(user._id), name: user.name, email: user.email, csrf: session.csrf, role:user.role==='admin'?'admin':'staff' };
   next();
 }
 export const cookieOptions = { httpOnly: true, secure: isProduction, sameSite: 'lax' as const, path: '/', maxAge: 8 * 60 * 60 * 1000 };
@@ -40,3 +40,5 @@ export async function newSession(userId: string, res: Response) {
   res.cookie('ellas_session', token, cookieOptions);
   return csrf;
 }
+
+export function requireAdmin(_req:Request,res:Response,next:NextFunction){if(res.locals.auth?.role!=='admin')return void res.status(403).json({message:'Esta acción requiere un administrador'});next();}

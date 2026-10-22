@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-10-22',
   devtools: { enabled: false },
   modules: ['@pinia/nuxt'],
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', '~/assets/css/order.css','~/assets/css/assistant.css'],
   typescript: { strict: true, typeCheck: false },
   runtimeConfig: {
     apiInternalUrl: 'http://127.0.0.1:4000',
