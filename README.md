@@ -41,7 +41,9 @@ Si prefieres MongoDB local para un entorno separado, `npm run db:local` arranca 
 - Constructor: <http://localhost:3000/hacer-pedido>
 - Comparador: <http://localhost:3000/comparar>
 - Captura administrativa: <http://localhost:3000/admin/asistente>
+- Comprador: <http://localhost:3000/mi-cuenta/entrar>
 - Acceso privado: `.local/ACCESO.md`. La contraseña no se publica en el repositorio ni en la web.
+- Cuentas de administrador y comprador: `.local/USUARIOS-DEMO.md`. Preparación repetible: `npm run users:demo`. [Permisos y uso](docs/USUARIOS.md).
 
 Usa `localhost`: debe coincidir con `APP_URL`. Si cambias puerto o dominio, actualiza también `NUXT_PUBLIC_APP_URL` y la URL de la API de Nuxt. En local Nuxt lee `apps/web/.env`; sus valores por defecto ya apuntan a Express local.
 

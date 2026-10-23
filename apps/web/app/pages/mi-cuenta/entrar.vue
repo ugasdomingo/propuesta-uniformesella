@@ -1,0 +1,7 @@
+<script setup lang="ts">
+import type {AuthSession} from '@ellas/shared';
+useHead({title:'Entrar en Mi cuenta'});
+const account=useAccount();const email=ref('');const password=ref('');const busy=ref(false);const error=ref('');
+async function login(){if(busy.value)return;busy.value=true;error.value='';try{account.user.value=await $fetch<AuthSession>('/api/auth/login',{method:'POST',body:{email:email.value,password:password.value,audience:'customer'}});password.value='';await navigateTo('/mi-cuenta');}catch(e){error.value=errorMessage(e);}finally{busy.value=false;}}
+</script>
+<template><div class="container customer-page"><div class="customer-login"><span class="eyebrow">TU EQUIPO, SIEMPRE A MANO</span><h1>Tu cuenta.<br/><span class="serif-word">Tus pedidos.</span></h1><p>Entra para consultar los pedidos y presupuestos vinculados a tu cuenta.</p><form @submit.prevent="login"><label>Email<input v-model="email" type="email" autocomplete="username" required maxlength="254"/></label><label>Contraseña<input v-model="password" type="password" autocomplete="current-password" required maxlength="200"/></label><p v-if="error" class="alert error" role="alert">{{error}}</p><button class="button dark full" :disabled="busy">{{busy?'Entrando…':'Entrar en Mi cuenta'}}<AppIcon name="ArrowRight"/></button></form><p class="fine-print">Solicita tu acceso al equipo de la tienda. Puedes seguir haciendo pedidos sin registro.</p><NuxtLink to="/hacer-pedido" class="text-link">Hacer un pedido <AppIcon name="ArrowUpRight" :size="16"/></NuxtLink></div></div></template>

@@ -8,10 +8,11 @@ import { z } from 'zod';
 import { normalize, requestSchema, loginSchema, stateSchema, noteSchema, proposalSchema, quoteStatuses, orderStatuses, statusLabels, type RequestLine } from '@ellas/shared';
 import { config, emailConfigured } from './config.js';
 import { connectDb, ProductModel, RequestModel, UserModel, SessionModel, EmailModel, UploadModel } from './models.js';
-import { sameOrigin, requireAuth, verifyPassword, newSession, cookieOptions, tokenHash } from './security.js';
+import { sameOrigin, requireAuth, requireStaff, readAuth, verifyPassword, newSession, cookieOptions, tokenHash } from './security.js';
 import { uploadRouter } from './uploads.js';
 import { enqueueEmails, processEmails } from './email.js';
 
+import {customerRouter} from './customers.js';
 import {catalogRouter} from './catalog.js';
 import {publicAiRouter,adminAiRouter} from './ai.js';
 import {AiSessionModel,AiUsageModel,DraftModel,ActionModel} from './ai-models.js';
@@ -65,7 +66,18 @@ app.get('/api/catalog/products/:slug', async (req, res) => {
   res.json(product);
 });
 
-app.post('/api/requests',limiter(15,60*60000),async(req,res)=>{const input=requestSchema.parse(req.body);const key=z.uuid().parse(req.get('idempotency-key'));const result=await createRequest(input,key,{channel:'web',actor:'Solicitante',notify:true});res.status(result.duplicate?200:201).json({number:result.number,duplicate:result.duplicate});});
+app.post('/api/requests',limiter(15,60*60000),async(req,res)=>{
+  const input=requestSchema.parse(req.body);const key=z.uuid().parse(req.get('idempotency-key'));
+  const auth=await readAuth(req);
+  if(!auth && req.get('x-csrf-token'))throw new HttpError(401,'Tu sesión ha caducado. Vuelve a entrar en Mi cuenta.');
+  if(auth?.role==='customer'){
+    if(req.get('x-csrf-token')!==auth.csrf)throw new HttpError(403,'Recarga la página para continuar');
+    if(input.contact.email.toLowerCase().trim()!==auth.email.toLowerCase())throw new HttpError(400,'Usa el email de tu cuenta para guardar el pedido en ella');
+  }
+  const customer=auth?.role==='customer'?auth:undefined;
+  const result=await createRequest(input,key,{channel:'web',actor:'Solicitante',notify:!customer?.demo,synthetic:customer?.demo,customerId:customer?.userId});
+  res.status(result.duplicate?200:201).json({number:result.number,duplicate:result.duplicate});
+});
 
 app.post('/api/auth/login', limiter(8,15*60000), async (req, res) => {
   const input = loginSchema.parse(req.body);
@@ -74,12 +86,14 @@ app.post('/api/auth/login', limiter(8,15*60000), async (req, res) => {
   const hash = user?.passwordHash || '45bc4c21d621921827e4afd1eec63b6c:' + '00'.repeat(64);
   const valid = await verifyPassword(input.password, hash);
   if (!user || !valid) return void res.status(401).json({ message: 'Email o contraseña incorrectos' });
+  if((input.audience==='customer')!==(user.role==='customer'))return void res.status(403).json({message:input.audience==='customer'?'Utiliza el acceso del equipo para esta cuenta':'Utiliza Mi cuenta para entrar como comprador'});
   const csrf = await newSession(String(user._id),res);
-  res.json({ name: user.name, email: user.email, csrf, role:user.role });
+  res.json({ name: user.name, email: user.email, csrf, role:user.role, demo:user.demo===true });
 });
 app.get('/api/auth/session', requireAuth, (_req,res)=>res.json(res.locals.auth));
 app.post('/api/auth/logout', requireAuth, async (req,res)=>{ await SessionModel.deleteOne({ tokenHash: tokenHash(String(req.cookies.ellas_session)) }); res.clearCookie('ellas_session', { ...cookieOptions, maxAge: 0 }); res.json({ ok: true }); });
-app.use('/api/admin', requireAuth);
+app.use('/api/customer',customerRouter);
+app.use('/api/admin', requireAuth, requireStaff);
 const listSchema = z.object({ q: z.string().max(100).default(''), status: z.string().max(50).default(''), type: z.enum(['','presupuesto','pedido']).default(''), from: z.union([z.literal(''), z.iso.date()]).default(''), to: z.union([z.literal(''), z.iso.date()]).default(''), page: z.coerce.number().int().min(1).max(10000).default(1) });
 app.get('/api/admin/requests', async (req,res)=>{
   const q = listSchema.parse(req.query);

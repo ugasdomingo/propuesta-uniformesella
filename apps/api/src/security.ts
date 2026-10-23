@@ -19,17 +19,29 @@ export function sameOrigin(req: Request, res: Response, next: NextFunction) {
   if (req.get('origin') !== new URL(config.APP_URL).origin) return void res.status(403).json({ message: 'Origen de solicitud no permitido' });
   next();
 }
-export interface Auth { role:'admin'|'staff'; userId: string; name: string; email: string; csrf: string }
+export interface Auth { role:'admin'|'staff'|'customer'; demo:boolean; userId: string; name: string; email: string; csrf: string }
 declare global { namespace Express { interface Locals { auth: Auth } } }
-export async function requireAuth(req: Request, res: Response, next: NextFunction) {
-  const cookie: unknown = req.cookies?.ellas_session;
-  if (typeof cookie !== 'string') return void res.status(401).json({ message: 'Inicia sesión para continuar' });
-  const session = await SessionModel.findOne({ tokenHash: tokenHash(cookie), expiresAt: { $gt: new Date() } }).lean();
-  if (!session) return void res.status(401).json({ message: 'La sesión ha caducado' });
-  const user = await UserModel.findOne({ _id: session.userId, active: true }).lean();
-  if (!user) return void res.status(401).json({ message: 'Acceso no disponible' });
-  if (!['GET','HEAD'].includes(req.method) && req.get('x-csrf-token') !== session.csrf) return void res.status(403).json({ message: 'Recarga la página para continuar' });
-  res.locals.auth = { userId: String(user._id), name: user.name, email: user.email, csrf: session.csrf, role:user.role==='admin'?'admin':'staff' };
+export async function readAuth(req:Request):Promise<Auth|null> {
+  const cookie:unknown=req.cookies?.ellas_session;
+  if(typeof cookie!=='string')return null;
+  const session=await SessionModel.findOne({tokenHash:tokenHash(cookie),expiresAt:{$gt:new Date()}}).lean();
+  if(!session)return null;
+  const user=await UserModel.findOne({_id:session.userId,active:true}).lean();
+  if(!user || !['admin','staff','customer'].includes(user.role))return null;
+  return {userId:String(user._id),name:user.name,email:user.email,csrf:session.csrf,role:user.role as Auth['role'],demo:user.demo===true};
+}
+export async function requireAuth(req:Request,res:Response,next:NextFunction){
+  const auth=await readAuth(req);
+  if(!auth)return void res.status(401).json({message:'Inicia sesión para continuar'});
+  if(!['GET','HEAD'].includes(req.method)&&req.get('x-csrf-token')!==auth.csrf)return void res.status(403).json({message:'Recarga la página para continuar'});
+  res.locals.auth=auth;next();
+}
+export function requireStaff(_req:Request,res:Response,next:NextFunction){
+  if(!['admin','staff'].includes(res.locals.auth?.role))return void res.status(403).json({message:'Este acceso está reservado al equipo'});
+  next();
+}
+export function requireCustomer(_req:Request,res:Response,next:NextFunction){
+  if(res.locals.auth?.role!=='customer')return void res.status(403).json({message:'Utiliza una cuenta de comprador'});
   next();
 }
 export const cookieOptions = { httpOnly: true, secure: isProduction, sameSite: 'lax' as const, path: '/', maxAge: 8 * 60 * 60 * 1000 };

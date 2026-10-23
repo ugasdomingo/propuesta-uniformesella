@@ -21,7 +21,8 @@ export const requestSchema = z.object({
   notes: z.string().trim().max(3000).default(''), desiredDate: z.iso.date().optional(),
   privacy: z.literal(true, 'Debes aceptar el tratamiento de tus datos para gestionar la solicitud'), website: z.string().max(0).default(''),
 }).strict();
-export const loginSchema = z.object({ email: z.email().max(254), password: z.string().min(1).max(200) }).strict();
+export const loginSchema = z.object({ email: z.email().max(254), password: z.string().min(1).max(200), audience: z.enum(['staff','customer']).optional() }).strict();
+export interface AuthSession { role:'admin'|'staff'|'customer'; name:string; email:string; csrf:string; demo?:boolean }
 export const noteSchema = z.object({ text: z.string().trim().min(1).max(2000), version: z.number().int().min(0) }).strict();
 export const stateSchema = z.object({ status: z.enum(statuses), version: z.number().int().min(0) }).strict();
 export const proposalSchema = z.object({
@@ -57,3 +58,5 @@ export interface RequestRecord {
   createdAt: string; updatedAt: string; version: number;
 }
 export const money = (cents: number) => new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' }).format(cents / 100);
+export type CustomerRequestSummary = Pick<RequestRecord,'_id'|'number'|'type'|'status'|'createdAt'|'updatedAt'|'demo'> & {quantity:number};
+export type CustomerRequestDetail = CustomerRequestSummary & Pick<RequestRecord,'contact'|'lines'|'personalization'|'notes'|'desiredDate'> & {proposal?:Omit<Proposal,'by'>};

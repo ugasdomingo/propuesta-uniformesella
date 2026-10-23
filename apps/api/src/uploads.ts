@@ -9,7 +9,7 @@ import mongoose from 'mongoose';
 import { S3Client, PutObjectCommand, GetObjectCommand } from '@aws-sdk/client-s3';
 import { config } from './config.js';
 import { tokenHash, requireAuth } from './security.js';
-import { UploadModel } from './models.js';
+import { UploadModel, RequestModel } from './models.js';
 
 export const uploadRouter = express.Router();
 const parser = multer({ storage: multer.memoryStorage(), limits: { fileSize: 3 * 1024 * 1024, files: 1, fields: 0 } });
@@ -34,6 +34,7 @@ uploadRouter.get('/:id', requireAuth, async (req, res) => {
   if (!mongoose.isObjectIdOrHexString(req.params.id)) return void res.sendStatus(404);
   const file = await UploadModel.findOne({ _id: req.params.id, claimedBy: { $exists: true } }).lean();
   if (!file) return void res.sendStatus(404);
+  if(res.locals.auth.role==='customer' && !await RequestModel.exists({_id:file.claimedBy,customerId:res.locals.auth.userId}))return void res.sendStatus(404);
   res.set({ 'Content-Type': 'image/png', 'Content-Disposition': `inline; filename="logo-${file._id}.png"`, 'Cache-Control':'private, no-store', 'X-Content-Type-Options':'nosniff' });
   if (file.storage === 's3') {
     if (!s3) throw new Error('Almacenamiento S3 no configurado');

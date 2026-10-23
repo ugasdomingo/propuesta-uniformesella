@@ -43,3 +43,13 @@ Plan 2 implementado: constructor de pedidos, comparador técnico por color, esta
 - Node 24 fijado, configuración Vercel en `apps/web/vercel.json`, función Nitro de 90 segundos y Docker con los manifests/tsconfig necesarios para scripts. Railway incluye comprobación e inicialización idempotente, una réplica y proceso activo para correo.
 - Instalación limpia del lockfile sin `.env`, tipos de la aplicación y scripts, auditoría, build completo y preset Vercel comprobados con Node 24.22.1. Los bloqueos de archivos generados del entorno restringido se resolvieron al compilar con ejecución local autorizada. Salida Vercel: nodejs24.x, función de 90 segundos. La imagen Docker queda para el build de Railway; no hay Docker instalado en este equipo.
 - Guía actual: `docs/EMPEZAR-DESPLIEGUE.md`; variables de cada plataforma en `deploy/`, sin valores privados. Correo real, URLs públicas y QR pendientes del despliegue del usuario.
+
+
+## Cuentas de administrador y comprador — 23/10/2026
+
+- Administrador existente conservado en Atlas y comprador de demostración creado. Credenciales en `.local/USUARIOS-DEMO.md`, excluido de Git. `users:demo` repetido conserva contraseñas, sesiones y ejemplo.
+- Portal `/mi-cuenta` con login, lista y detalle de solicitudes propias. Nuevos pedidos autenticados vinculados por identificador; capturas administrativas vinculadas por email de una cuenta activa. Pedidos anónimos conservan el flujo sin registro.
+- Permisos de servidor separados: comprador sin panel ni asistente privado, ni pedidos/logos ajenos. DTO de cliente sin eventos, metadatos de captura ni claves internas; páginas privadas con no-store y CSRF en escrituras autenticadas.
+- Tres solicitudes ficticias propias para revisar: semilla, pedido web con logo y captura WhatsApp. Cero emails. Base Atlas actual: 197 productos, 23 solicitudes y 2 cuentas activas.
+- Login, denegaciones, idempotencia, pertenencia, descarga de logo y renderizado SSR comprobados; tipos, auditoría, build completo y preset Vercel correctos. Navegador integrado no disponible para revisión visual en este turno. Detalle: `docs/USUARIOS.md`.
+- Entrega en main local, sin push ni despliegue.

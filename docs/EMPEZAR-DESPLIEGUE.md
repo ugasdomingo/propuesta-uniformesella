@@ -55,6 +55,7 @@ Las previews de otras ramas no están autorizadas para gestionar esta base con o
 - Abre `/hacer-pedido`, busca JT150, añade varios colores/tallas y otra referencia. Revisa, adjunta un logo ficticio y envía. Debe aparecer un número de solicitud.
 - En `/comparar`, compara JT150, TSRA150 y TSRA190; comprueba gramaje desconocido, intervalo y excepciones por color. La popularidad debe indicar que aún no hay historial real suficiente en esta demo.
 - Entra a `/admin/solicitudes` con el usuario y contraseña configurados en Railway. Abre la nueva solicitud, su logo privado, una nota y un cambio de estado. Los ejemplos están identificados y no generan correo.
+- Entra como comprador en `/mi-cuenta/entrar` con los accesos de `.local/USUARIOS-DEMO.md`. La cuenta ya está creada en Atlas y consulta solo sus solicitudes. [Cuentas y permisos](USUARIOS.md).
 - Abre el asesor público y `/admin/asistente`. Comprueba texto y una captura ficticia. El administrador debe revisar y confirmar antes de crear una solicitud o aplicar cambios.
 - Con Resend configurado, comprueba **recepción** de avisos en `ugasdomingo@gmail.com`. No basta el estado «Aceptado por el proveedor». Los pedidos importados solo generan avisos cuando se marcan expresamente.
 - Repite acceso y consulta después de un reinicio de la API. Mantén `noindex`. Para abrir la demo desde móvil, el acceso del proyecto debe permitir los visitantes que elijas, manteniendo el login del panel.
@@ -68,4 +69,4 @@ Conexión, usuario de base de datos e IP permitidas: [documentación oficial de 
 Detalles de almacenamiento, backups, incidencias y correo: [Despliegue](DESPLIEGUE.md). Modelos, cuotas y privacidad: [Operación del Plan 2](PLAN-2-OPERACION.md).
 
 
-Atlas se comprobó mediante conexión real y dos preparaciones: 197 productos, 20 ejemplos, un administrador conservado y cero trabajos de correo. La API compilada devolvió `/health` 200 y búsqueda JT150 200 usando Atlas. La comprobación de secretos no encontró coincidencias entre los archivos de entrega; `.env`, accesos privados y datos temporales siguen ignorados por Git.
+Atlas se comprobó mediante conexión real y dos preparaciones iniciales: 197 productos, 20 ejemplos y un administrador conservado. La ampliación de cuentas añade un comprador y tres solicitudes ficticias propias; el estado actual es de 23 solicitudes y dos cuentas, sin trabajos de correo. Consulta [Usuarios](USUARIOS.md) para los accesos privados. La API compilada devolvió `/health` 200 y búsqueda JT150 200 usando Atlas. La comprobación de secretos no encontró coincidencias entre los archivos de entrega; `.env`, accesos privados y datos temporales siguen ignorados por Git.
