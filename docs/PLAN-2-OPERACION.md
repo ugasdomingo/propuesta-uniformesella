@@ -12,6 +12,12 @@ La aplicación se entrega en `main` local. El usuario hará push y desplegará m
 
 En el constructor, vacío equivale a cero mientras configuras. Una línea ya añadida debe tener al menos una unidad; para retirarla se elimina el grupo o se corrige el reparto. No se truncan cantidades silenciosamente. Cada variante admite hasta 10.000 unidades, con 250 variantes y 100.000 prendas por solicitud.
 
+## Base de datos Atlas
+
+Desde el 23/10/2026, el entorno del usuario usa MongoDB Atlas mediante `MONGODB_URI` en el `.env` privado. Configura la misma base en la API de Railway; Vercel solo recibe la URL HTTPS de la API. Atlas conserva también GridFS, sesiones, borradores, cuotas y cola de correo. No hace falta iniciar MongoDB local ni desplegar otro servicio de base de datos.
+
+`npm run db:check` comprueba conexión y recuentos sin mostrar la URI ni modificar datos. Exige una base exclusiva, distinta de las bases de sistema o `test`. `npm run deploy:prepare` encadena esa comprobación, importación del catálogo, semilla idempotente y creación del administrador con `--if-missing`: conserva contraseña, permisos y sesiones existentes. El `railway.json` ya incluye este paso previo al arranque. Las migraciones históricas siguen siendo manuales.
+
 ## Instalación y migración
 
 Usar Node 24.15+ de la rama 24 y `npm ci`. La API carga `.env` en la raíz; Nuxt mantiene su configuración propia y nunca recibe claves privadas mediante `NUXT_PUBLIC_*`.

@@ -1,15 +1,14 @@
 # Despliegue manual de la demo
 
-No se ha publicado nada desde este chat. El usuario hará push de `main` y desplegará manualmente. No reutilizar ni modificar el proyecto o dominio de la tienda actual.
+No se ha publicado nada desde este chat. El usuario hará push de `main` y desplegará manualmente. No reutilizar ni modificar el proyecto o dominio de la tienda actual. Para empezar, sigue [Del push a la demo pública](EMPEZAR-DESPLIEGUE.md), con plantillas en `deploy/` y orden de configuración.
 
-## 1. Railway: MongoDB
+## 1. MongoDB Atlas
 
-1. Crear un proyecto independiente para la demo.
-2. Añadir el servicio MongoDB de Railway y comprobar que tiene un volumen persistente montado en `/data/db`.
-3. Conservar la autenticación del servicio. La API debe usar su URI **privada** mediante las referencias de variables de Railway; no publicar el puerto de MongoDB para el navegador.
-4. Configurar backups del volumen y comprobar una restauración en otro entorno. Guardar por separado la configuración y el secreto de sesión.
+Usa una base exclusiva de la demo y un usuario Atlas con `readWrite` en esa base. Copia la URI de Connect > Drivers a `MONGODB_URI` del `.env` privado y del servicio API en Railway, indicando el nombre de base antes de los parámetros `?`. No la publiques ni uses `NUXT_PUBLIC_*`.
 
-Los logos usan GridFS por defecto: el mismo volumen conserva solicitudes, usuarios, sesiones, trabajos de correo y adjuntos. También se puede usar S3 privado si se completan todas sus variables.
+La lista de IP permitidas de Atlas debe incluir el origen de tu equipo para desarrollo y el de la API para el despliegue. Revisa la salida de red de Railway al configurarlo. Conserva autenticación/TLS y configura backups del clúster con una restauración de comprobación.
+
+Los logos usan GridFS por defecto: Atlas conserva solicitudes, usuarios, sesiones, trabajos de correo, adjuntos y borradores. También se admite S3 privado si se completan todas sus variables. No hace falta un servicio MongoDB ni un volumen en Railway. El MongoDB local y `compose.yaml` quedan como alternativa de desarrollo.
 
 ## 2. Railway: API Express
 
@@ -20,7 +19,7 @@ Configurar variables del servicio, sin guardarlas en Git:
 | Variable | Valor / propósito |
 | --- | --- |
 | `NODE_ENV` | `production` |
-| `MONGODB_URI` | URI privada con credenciales del servicio MongoDB |
+| `MONGODB_URI` | URI privada de Atlas con la base exclusiva de esta demo |
 | `APP_URL` | URL HTTPS estable del frontend en Vercel, sin ruta |
 | `SESSION_SECRET` | Secreto aleatorio de al menos 32 caracteres, distinto del local |
 | `DEMO_MODE` | `true` |
@@ -38,17 +37,15 @@ Generar un dominio HTTPS de Railway para la API. La API comprueba origen y sesi�
 
 Las cuotas de OpenAI, privacidad, retención y migración del histórico se detallan en [Operación del Plan 2](PLAN-2-OPERACION.md). No copiar el `.env` local ni la base de comprobación al alojamiento. Para actualizar una base existente, revisar primero `npm run db:migrate:plan2` y aplicar con `-- --apply` una vez clasificado su histórico.
 
-Tras configurar la base, ejecutar desde una sesión del servicio con sus variables:
+`railway.json` ya ejecuta automáticamente este comando pre-deploy con las variables del servicio:
 
 ```sh
-npm run catalog:import
-npm run demo:seed
-npm run admin:create
+npm run deploy:prepare
 ```
 
-`--env-file-if-exists` permite usar las variables del servicio sin necesitar un archivo `.env` en el contenedor. Estos comandos no se deben convertir en un reset automático en cada visita/despliegue. La importación y semilla son idempotentes; `admin:create` actualiza el hash y cierra las sesiones anteriores del usuario.
+`deploy:prepare` comprueba la conexión y la base con `db:check`, importa el catálogo, inserta los ejemplos ausentes y ejecuta `admin:create -- --if-missing`. No borra solicitudes ni cambia ejemplos editados, contraseña, permisos o sesiones de un administrador existente. Requiere `DEMO_MODE=true` y las dos variables del administrador; una cuenta existente inactiva o sin rol administrador hace fallar el paso para revisión manual. No aplica migraciones históricas automáticamente. `--env-file-if-exists` permite usar las variables del servicio sin un archivo `.env` en el contenedor. Para cambiar deliberadamente la contraseña, `npm run admin:create` sin `--if-missing` mantiene la operación administrativa anterior y revoca las sesiones.
 
-Si se ejecutan desde el equipo local, usa un archivo de entorno privado para ese destino y una conexión temporal autorizada; no copies la URI privada de Railway a un navegador. La forma preferida es ejecutar dentro del servicio. No hagas accesible la base de datos solo para importar el catálogo.
+Puedes ejecutar `npm run db:check` y `npm run deploy:prepare` desde tu equipo con `MONGODB_URI` de Atlas en el `.env` privado. Atlas debe permitir tu conexión y la del servicio API. No copies la URI a un navegador ni a variables públicas.
 
 ## 3. Vercel: frontend Nuxt
 
@@ -56,8 +53,8 @@ Si se ejecutan desde el equipo local, usa un archivo de entorno privado para ese
 2. Root Directory: `apps/web`.
 3. Framework: Nuxt. Node: rama **24.x** compatible con Nuxt.
 4. Permitir archivos fuera de Root Directory para resolver `packages/shared` y el workspace.
-5. Install Command desde la raíz del repo: `npm ci`. Con Root Directory en `apps/web`, usar `cd ../.. && npm ci` si el proyecto no detecta automáticamente el workspace.
-6. Build Command: `npm run build` desde `apps/web` (el script de ese workspace ejecuta `nuxt build`). No configurar un directorio estático manual: usar la salida nativa del preset Vercel.
+5. `apps/web/vercel.json` fija Install Command: `cd ../.. && npm ci --include=dev`, ejecutado desde `apps/web`. Incluye las herramientas de build aunque el entorno sea producción.
+6. El mismo archivo fija Build Command: `npm run build` desde `apps/web`. No configurar un directorio estático manual: usar la salida nativa del preset Vercel. Nitro configura 90 segundos para la función proxy, por encima del límite de turno del asistente.
 7. Variables del frontend:
 
 ```dotenv
@@ -67,7 +64,7 @@ NUXT_PUBLIC_DEMO_MODE=true
 NITRO_PRESET=vercel
 ```
 
-MongoDB, Resend, contraseñas y `SESSION_SECRET` pertenecen **solo a Railway**, nunca a `NUXT_PUBLIC_*`. El frontend reenvía `/api/*` hacia Express y mantiene las cookies en el origen del frontend. Configurar `APP_URL` de la API con la URL estable final de Vercel antes de enviar formularios.
+MongoDB, OpenAI, Resend, contraseñas y `SESSION_SECRET` pertenecen **solo a Railway**, nunca a `NUXT_PUBLIC_*`. El frontend reenvía `/api/*` hacia Express y mantiene las cookies en el origen del frontend. Configurar `APP_URL` de la API con la URL estable final de Vercel antes de enviar formularios.
 
 Para visitantes con móvil y QR, la URL final tiene que ser accesible sin autenticación del proveedor. Publica el proyecto de demo con el acceso público que hayas elegido para este entorno. La autenticación del panel sigue siendo la de la aplicación.
 
@@ -89,7 +86,7 @@ Desde escritorio y un móvil real:
 4. Comprobar número de confirmación y persistencia tras recargar/reiniciar la API.
 5. Entrar al panel, localizarla, abrir el logo, añadir nota y cambiar estado.
 6. Guardar propuesta, registrar aceptación y convertir en pedido sin perder el número.
-7. Comprobar correo y los 20 ejemplos claramente diferenciados.
+7. Comprobar correo y los 20 ejemplos claramente diferenciados. Revisar comparador técnico y asistentes público/administrativo con datos ficticios.
 8. Verificar `noindex`, robots y ausencia de credenciales públicas.
 
 Cuando funcione, comunicar la **URL estable** para generar la hoja imprimible con QR a `/?origen=qr`. El QR y las credenciales no se incorporan a la web pública. La hoja no se ha generado con una URL provisional.

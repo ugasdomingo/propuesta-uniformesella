@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "engines": {
-    "node": ">=22.22.3 <23 || >=24.15.0"
+    "node": ">=24.15.0 <25"
   },
   "scripts": {
     "dev:web": "npm run dev -w @ellas/web",
@@ -22,7 +22,10 @@
     "admin:create": "tsx --env-file-if-exists=.env scripts/create-admin.ts",
     "db:local": "tsx scripts/local-mongo.ts",
     "catalog:technical": "tsx scripts/derive-technical.ts",
-    "db:migrate:plan2": "tsx --env-file-if-exists=.env scripts/migrate-plan2.ts"
+    "db:migrate:plan2": "tsx --env-file-if-exists=.env scripts/migrate-plan2.ts",
+    "db:check": "tsx --env-file-if-exists=.env scripts/check-db.ts",
+    "deploy:prepare": "npm run db:check && npm run catalog:import && npm run demo:seed && npm run admin:create -- --if-missing",
+    "deploy:check": "npm run typecheck && npm run build"
   },
   "devDependencies": {
     "@types/node": "^22.19.0",

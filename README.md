@@ -8,7 +8,7 @@ Aplicación MEVN con TypeScript estricto: Nuxt 4 / Vue, API Express 5 y MongoDB.
 
 ## Arranque local
 
-Requiere Node **24.15+ de la rama 24** (también compatible con 22.22.3+), npm y MongoDB. Usa `npm ci` para respetar el lockfile.
+Requiere Node **24.15+ de la rama 24**, npm y MongoDB. `.nvmrc` y los manifests fijan esa rama para los despliegues. Usa `npm ci` para respetar el lockfile.
 
 ```powershell
 npm ci
@@ -17,29 +17,23 @@ npx tsx scripts/setup-local.ts
 
 El segundo comando crea `.env` y `.local/ACCESO.md` con una contraseña aleatoria, ambos excluidos de Git. No sobrescribe un `.env` existente. Si ya tienes configuración, usa `.env.example` y define un secreto de sesión aleatorio de al menos 32 caracteres.
 
-En una terminal, arranca MongoDB:
+Configura **MongoDB Atlas** en `MONGODB_URI` del `.env` privado, con una base exclusiva en la URI y acceso autorizado desde tu equipo. La API guarda allí catálogo, solicitudes, usuarios, sesiones, borradores, correo y logos GridFS.
+
+Comprueba e inicializa la base sin borrar datos existentes:
 
 ```powershell
-npm run db:local
+npm run db:check
+npm run deploy:prepare
+npm run dev:api
 ```
-
-Descarga y ejecuta un **mongod real**, con WiredTiger y datos en `.local/mongodb`. `mongodb-memory-server-core` se usa como gestor del binario; la base **no es volátil**. Alternativa con Docker: `docker compose up -d mongo`. No ejecutes ambos a la vez: usan el mismo puerto.
 
 En otra terminal:
 
 ```powershell
-npm run catalog:audit
-npm run catalog:import
-npm run demo:seed
-npm run admin:create
-npm run dev:api
-```
-
-En una tercera:
-
-```powershell
 npm run dev:web
 ```
+
+Si prefieres MongoDB local para un entorno separado, `npm run db:local` arranca un **mongod real** con WiredTiger en `.local/mongodb` y usa `mongodb://127.0.0.1:27017/uniformes_ellas`. Alternativa: `docker compose up -d mongo`. No hacen falta estos comandos cuando usas Atlas.
 
 - Web: <http://localhost:3000>
 - Panel: <http://localhost:3000/admin/solicitudes>
@@ -106,7 +100,7 @@ node .output/server/index.mjs
 
 ## Despliegue manual
 
-[docs/DESPLIEGUE.md](docs/DESPLIEGUE.md) detalla Railway, MongoDB con volumen y backups, Vercel y comprobaciones posteriores. Se incluyen `Dockerfile.api`, `railway.json`, `compose.yaml` y `.env.example` sin credenciales reales.
+**Empieza por [Del push a la demo pública](docs/EMPEZAR-DESPLIEGUE.md)**: contiene el comando de push, el orden de configuración y las variables de cada plataforma. `apps/web/vercel.json` fija el build de Nuxt; `railway.json` configura Docker y la preparación idempotente de catálogo/ejemplos/administrador sobre MongoDB Atlas. Las plantillas sin claves están en `deploy/`. [Despliegue detallado](docs/DESPLIEGUE.md) cubre Atlas, backups, correo y comprobaciones posteriores. No se ha hecho push ni despliegue desde el chat.
 
 La demo tiene `noindex`, `X-Robots-Tag`, robots restrictivo y sitemap vacío. El contenido comercial usa SSR, canonical, datos estructurados sin precios ficticios, imágenes dimensionadas y fuentes locales. Se respeta el movimiento reducido. La política de privacidad identifica la demo y el buzón de desarrollo; debe revisarse antes de una apertura comercial.
 

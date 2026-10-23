@@ -3,6 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-22',
   devtools: { enabled: false },
+  nitro: { vercel: { functions: { maxDuration: 90 } } },
   modules: ['@pinia/nuxt'],
   css: ['~/assets/css/main.css', '~/assets/css/order.css','~/assets/css/assistant.css'],
   typescript: { strict: true, typeCheck: false },

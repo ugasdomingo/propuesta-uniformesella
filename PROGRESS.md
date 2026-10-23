@@ -33,3 +33,13 @@ Plan 2 implementado: constructor de pedidos, comparador técnico por color, esta
 
 - Correo real: pendiente de acceso a proveedor y remitente verificado.
 - Despliegues públicos, comprobación pública y QR: pospuestos por el usuario.
+
+
+## Preparación del despliegue y Atlas — 23/10/2026
+
+- El usuario realizará el push y los despliegues manualmente. Remoto GitHub existente, rama main; ninguna publicación desde el chat.
+- Atlas sustituye al servicio MongoDB de Railway. URI guardada por el usuario en `.env`, excluida de Git. Conexión e inicialización reales: 197 productos, 20 ejemplos y 1 administrador; sin trabajos de correo. Preparación repetida conserva el administrador y los recuentos.
+- API compilada conectada a Atlas: `/health` 200 y búsqueda JT150 200. Servidor de comprobación temporal detenido después de revisar.
+- Node 24 fijado, configuración Vercel en `apps/web/vercel.json`, función Nitro de 90 segundos y Docker con los manifests/tsconfig necesarios para scripts. Railway incluye comprobación e inicialización idempotente, una réplica y proceso activo para correo.
+- Instalación limpia del lockfile sin `.env`, tipos de la aplicación y scripts, auditoría, build completo y preset Vercel comprobados con Node 24.22.1. Los bloqueos de archivos generados del entorno restringido se resolvieron al compilar con ejecución local autorizada. Salida Vercel: nodejs24.x, función de 90 segundos. La imagen Docker queda para el build de Railway; no hay Docker instalado en este equipo.
+- Guía actual: `docs/EMPEZAR-DESPLIEGUE.md`; variables de cada plataforma en `deploy/`, sin valores privados. Correo real, URLs públicas y QR pendientes del despliegue del usuario.
